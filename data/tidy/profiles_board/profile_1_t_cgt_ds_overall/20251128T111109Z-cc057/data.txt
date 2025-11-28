@@ -1,0 +1,10 @@
+file: profile_1_t_cgt_ds_overall.parquet
+file_size: 1418
+pin_hash: cc0576241a849e03
+type: parquet
+title: 'profile_1_t_cgt_ds_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111109Z
+api_version: 1

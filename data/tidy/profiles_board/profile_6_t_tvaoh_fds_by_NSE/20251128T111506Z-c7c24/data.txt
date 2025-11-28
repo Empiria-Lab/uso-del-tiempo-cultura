@@ -1,0 +1,10 @@
+file: profile_6_t_tvaoh_fds_by_NSE.parquet
+file_size: 1792
+pin_hash: c7c244ff8fc5e5b7
+type: parquet
+title: 'profile_6_t_tvaoh_fds_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111506Z
+api_version: 1

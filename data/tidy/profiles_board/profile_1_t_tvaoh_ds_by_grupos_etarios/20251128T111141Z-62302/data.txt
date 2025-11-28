@@ -1,0 +1,10 @@
+file: profile_1_t_tvaoh_ds_by_grupos_etarios.parquet
+file_size: 1843
+pin_hash: 623022127a57413b
+type: parquet
+title: 'profile_1_t_tvaoh_ds_by_grupos_etarios: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111141Z
+api_version: 1

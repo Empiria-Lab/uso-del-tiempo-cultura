@@ -1,0 +1,10 @@
+file: profile_4_t_ap_ds_by_sexo.parquet
+file_size: 1750
+pin_hash: bcc9859d042f5a9c
+type: parquet
+title: 'profile_4_t_ap_ds_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111341Z
+api_version: 1

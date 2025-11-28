@@ -1,0 +1,10 @@
+file: profile_2_t_ap_ds_overall.parquet
+file_size: 1400
+pin_hash: 96f45315e491da21
+type: parquet
+title: 'profile_2_t_ap_ds_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111208Z
+api_version: 1

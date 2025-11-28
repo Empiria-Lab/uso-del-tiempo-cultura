@@ -1,0 +1,10 @@
+file: profile_4_t_tcnr_ds_by_grupos_etarios.parquet
+file_size: 1756
+pin_hash: d818639c34a79d58
+type: parquet
+title: 'profile_4_t_tcnr_ds_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111418Z
+api_version: 1

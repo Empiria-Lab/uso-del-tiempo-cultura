@@ -1,0 +1,10 @@
+file: profile_4_t_cgt_ds_by_grupos_etarios.parquet
+file_size: 1748
+pin_hash: 1e660c50f234f743
+type: parquet
+title: 'profile_4_t_cgt_ds_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111348Z
+api_version: 1

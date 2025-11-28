@@ -1,0 +1,10 @@
+file: profile_6_t_tvaoh_ds_overall.parquet
+file_size: 1442
+pin_hash: 2c2ba9712a030c72
+type: parquet
+title: 'profile_6_t_tvaoh_ds_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111504Z
+api_version: 1

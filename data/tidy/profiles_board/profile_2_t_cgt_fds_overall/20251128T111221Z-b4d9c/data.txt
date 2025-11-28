@@ -1,0 +1,10 @@
+file: profile_2_t_cgt_fds_overall.parquet
+file_size: 1432
+pin_hash: b4d9cd09be4cd6a1
+type: parquet
+title: 'profile_2_t_cgt_fds_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111221Z
+api_version: 1

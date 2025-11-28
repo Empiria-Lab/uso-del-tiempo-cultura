@@ -1,0 +1,10 @@
+file: profile_4_t_tvaoh_fds_by_nivel_educ.parquet
+file_size: 1860
+pin_hash: 717936a75143d21e
+type: parquet
+title: 'profile_4_t_tvaoh_fds_by_nivel_educ: a pinned 5 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251128T111409Z
+api_version: 1
