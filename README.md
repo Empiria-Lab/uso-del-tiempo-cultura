@@ -23,7 +23,7 @@ Para replicar los principales resultados del artículo, deben ejecutarse los sig
 
 ## Licencia
 
-El contenido de este proyecto está protegido por una licencia Creative Commons Attribution 4.0 International (CC BY 4.0), y el código subyacente utilizado para dar formato y mostrar dicho contenido está protegido por una licencia MIT.
+El contenido de este proyecto está protegido por una licencia [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CC.md), y el código subyacente utilizado para dar formato y mostrar dicho contenido está protegido por una [licencia MIT](LICENSE-MIT.md).
 
 ## Autor
 
