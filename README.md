@@ -27,11 +27,11 @@ El contenido de este proyecto está protegido por una licencia Creative Commons 
 
 ## Autor
 
-**Dr. Bastián González-Bustamante.** Coordinador de Estudios de Empiria Lab y Profesor Asociado de la Facultad de Administración y Economía de la Universidad Diego Portales. También es investigador postdoctoral en Ciencias Sociales Computacionales en la Universidad de Leiden y Coordinador de Investigación del grupo de Ciencia Política Computacional de la Universidad de Oxford. Es Doctor en Ciencia Política por la Universidad de Oxford y Magíster en Ciencia Política, Administrador Público y Licenciado en Ciencias Políticas y Gubernamentales por la Universidad de Chile. Email: bastian.gonzalezbustamante@empirialab.cl. 
+**Dr. Bastián González-Bustamante.** Coordinador de Estudios de [Empiria Lab](https://empirialab.cl/) y Profesor Asociado de la Facultad de Administración y Economía de la Universidad Diego Portales. También es investigador postdoctoral en Ciencias Sociales Computacionales en la Universidad de Leiden y Coordinador de Investigación del grupo de Ciencia Política Computacional de la Universidad de Oxford. Es Doctor en Ciencia Política por la Universidad de Oxford y Magíster en Ciencia Política, Administrador Público y Licenciado en Ciencias Políticas y Gubernamentales por la Universidad de Chile. Email: bastian.gonzalezbustamante@empirialab.cl. 
 
 ## Empiria Lab
 
-Empiria Lab es un equipo especializado que ofrece soluciones y asesorías para los ámbitos público y privado. Empiria Lab nació como una idea en Oxford y, en 2024, se convirtió en un grupo de consultoría, con sede en Santiago y colaboradores en distintas partes del mundo. Esperamos que nuestros clientes disfruten de nuestros productos y servicios tanto como nosotros disfrutamos ofreciéndolos.
+[Empiria Lab](https://empirialab.cl/) es un equipo especializado que ofrece soluciones y asesorías para los ámbitos público y privado. [Empiria Lab](https://empirialab.cl/) nació como una idea en Oxford y, en 2024, se convirtió en un grupo de consultoría, con sede en Santiago y colaboradores en distintas partes del mundo. Esperamos que nuestros clientes disfruten de nuestros productos y servicios tanto como nosotros disfrutamos ofreciéndolos.
 
 ### Última revisión
 
