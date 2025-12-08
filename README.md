@@ -35,7 +35,7 @@ El contenido de este proyecto está protegido por una licencia [Creative Commons
 
 ## Empiria Lab
 
-[Empiria Lab](https://empirialab.cl/) es un equipo especializado que ofrece soluciones y asesorías para los ámbitos público y privado. [Empiria Lab](https://empirialab.cl/) nació como una idea en Oxford y, en 2024, se convirtió en un grupo de consultoría, con sede en Santiago y colaboradores en distintas partes del mundo. Esperamos que nuestros clientes disfruten de nuestros productos y servicios tanto como nosotros disfrutamos ofreciéndolos.
+[Empiria Lab](https://empirialab.cl/) es un equipo especializado que ofrece soluciones y asesorías para los ámbitos público y privado. Nació como una idea en Oxford y, en 2024, se convirtió en un grupo de consultoría, con sede en Santiago y colaboradores en distintas partes del mundo. Esperamos que nuestros clientes disfruten de nuestros productos y servicios tanto como nosotros disfrutamos ofreciéndolos.
 
 ### Última revisión
 
