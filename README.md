@@ -1,7 +1,7 @@
 # uso-del-tiempo-cultura
 **Estudio análisis de uso del tiempo y relación con perfiles de participación cultural**
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/active.svg)](STATUS.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/mit.svg)](LICENSE-MIT.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/cc_by_4_0.svg)](LICENSE-CC.md) [![Empiria](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/empirialab.svg)](https://empirialab.cl/)
+[![WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/wip.svg)](STATUS.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/mit.svg)](LICENSE-MIT.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/cc_by_4_0.svg)](LICENSE-CC.md) [![Empiria](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/empirialab.svg)](https://empirialab.cl/)
 
 ## Resumen
 
@@ -15,11 +15,15 @@ Este repositorio se ha creado con control de versiones Git. Además, el entorno 
 
 A continuación se ofrece una breve descripción de los archivos relevantes de este repositorio:
 
+**PENDIENTE**
+
 ## Cómo empezar
 
 El código original se escribió entre noviembre y diciembre de 2025 utilizando `R v4.5.0 -- How About a Twenty-Six`. Es importante señalar que `renv.lock` es el archivo de bloqueo del proyecto, y que todos los paquetes R instalados y necesarios se registran allí.
 
 Para replicar los principales resultados del artículo, deben ejecutarse los siguientes archivos:
+
+**PENDIENTE**
 
 ## Licencia
 
