@@ -295,8 +295,17 @@ for (i in seq_len(nrow(profiles))) {
 svyby(
   ~ t_ap_ds,
   ## Profiles
-  ## ~ g1_person_with_elderly,
-  ~ g2_person_with_disabled,
+  ~ g1_person_with_elderly,
+  design_enut,
+  svymean,
+  na.rm = TRUE
+)
+
+## Sanity check
+svyby(
+  ~ t_ap_ds,
+  ## Profiles
+  ~ g1_person_with_elderly + NSE,
   design_enut,
   svymean,
   na.rm = TRUE
