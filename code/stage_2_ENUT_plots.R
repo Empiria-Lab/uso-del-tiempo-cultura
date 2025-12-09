@@ -49,6 +49,7 @@ overall_df <- imap_dfr(
   overall_profiles_list,
   ~ .x %>% mutate(pin_name = .y)
 )
+
 ## Sanity check
 ## write.csv(overall_df, "data/tidy/profiles_board_overall.csv", row.names = FALSE)
 
@@ -71,11 +72,12 @@ overall_long <- overall_df %>%
   ) %>%
   ungroup() %>%
   select(
-    profile_id, profile_label,
-    time_set, day_type,
-    mean_hours, se_hours
+    profile_label, time_set, 
+    day_type, mean_hours, se_hours
   )
-write.csv(overall_long, "data/tidy/enut_profiles_overall.csv", row.names = FALSE)
+
+## Save CSV
+write.csv(overall_long, "data/tidy/enut_profiles_overall.csv", fileEncoding = "UTF-8", row.names = FALSE)
 
 ###############################################################################
 ## 4. Cartesian plot
