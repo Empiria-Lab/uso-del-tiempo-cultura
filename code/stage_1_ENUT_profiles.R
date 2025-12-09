@@ -17,7 +17,7 @@
 rm(list = ls())
 
 ###############################################################################
-## 2. Load packages
+## 2. Packages
 ###############################################################################
 
 library(dplyr)
@@ -151,7 +151,7 @@ design_enut <- svydesign(
 options(survey.lonely.psu = "certainty")
 
 ###############################################################################
-## 6. Time variables per profile (simple loops)
+## 6. Time variables per profile
 ###############################################################################
 
 ## Time-variable pairs (ds + fds)
