@@ -13,9 +13,18 @@ Para asegurar la reproducibilidad del estudio, todas las transformaciones y aná
 
 Este repositorio se ha creado con control de versiones Git. Además, el entorno de trabajo en R se ha gestionado con `renv`, lo que permite congelar y restaurar las versiones de los paquetes utilizados. Paralelamente, se ha generado un registro sistemático de dependencias y referencias bibliográficas asociadas a los paquetes empleados utilizando `grateful`, fortaleciendo la transparencia del ecosistema de software.
 
-A continuación se ofrece una breve descripción de los archivos relevantes de este repositorio:
+A continuación se ofrece una breve descripción de los **archivos relevantes** de este repositorio:
 
-**PENDIENTE**
+- **code\stage_1_ENUT_profiles.R**. Un script R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
+
+- **README.md**. La descripción general principal de este repositorioque  proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
+
+El repositorio también contiene las siguientes **carpetas** con archivos relevantes:
+
+- **data\raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL `2024 enpccl_puf.RData`. ENPCLL pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
+
+> [!IMPORTANT]
+> ENPCCL 2024 `enpccl_puf.RData` se ha incorporado a `.gitignore` por su tamaño y los límites de LFS, por tanto, debe ser descargada desde https://www.cultura.gob.cl/participacioncultural/resultados-enpccl-2024/. II ENUT 2023 se está respaldada en el repositorio, sin embargo, también se puede descargar desde https://www.ine.gob.cl/estadisticas/sociales/genero/uso-del-tiempo. 
 
 ## Cómo empezar
 
