@@ -29,7 +29,10 @@ library(dplyr)
 ###############################################################################
 
 ## Change the target and iterate the code
-target_var <- "NSE"
+## target_var <- "NSE"
+## target_var <- "grupos_etarios"
+## target_var <- "nivel_educ"
+target_var <- "sexo"
 
 ###############################################################################
 ## 4. Import profiles
