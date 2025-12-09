@@ -15,16 +15,24 @@ Este repositorio se ha creado con control de versiones Git. Además, el entorno 
 
 A continuación se ofrece una breve descripción de los **archivos relevantes** de este repositorio:
 
-- **code\stage_1_ENUT_profiles.R**. Un script R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
+- **code\stage_1_ENUT_profiles.R**. Script de R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
 
-- **README.md**. La descripción general principal de este repositorioque  proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
+- **code\stage_2_ENUT_plots.R**. Script de R que convierte los perfiles generales de II ENUT 2023 en el archivo CSV `data\tidy\enut_profiles_overall.csv` y en las figuras del reporte disponibles en `results\figures`.
+
+- **README.md**. La descripción general principal de este repositorioque proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
 
 El repositorio también contiene las siguientes **carpetas** con archivos relevantes:
 
-- **data\raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL `2024 enpccl_puf.RData`. ENPCLL pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
+- **data\raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL 2024 `enpccl_puf.RData`. ENPCLL 2024 pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
 
 > [!IMPORTANT]
 > ENPCCL 2024 `enpccl_puf.RData` se ha incorporado a `.gitignore` por su tamaño y los límites de LFS, por tanto, debe ser descargada desde https://www.cultura.gob.cl/participacioncultural/resultados-enpccl-2024/. II ENUT 2023 se está respaldada en el repositorio, sin embargo, también se puede descargar desde https://www.ine.gob.cl/estadisticas/sociales/genero/uso-del-tiempo. 
+
+- **data\tidy**. Contiene los archivos agregados de perfiles procesados con las bases de datos originales de II ENUT 2023 y ENPCCL 2024.
+
+- **data\tidy\profiles_board**. Contiene las estimaciones de perfiles individuales en formato Parquet con el paquete `pins`.
+
+- **results\figures**. Contiene las figuras del reporte generadas con los scripts de R.
 
 ## Cómo empezar
 
@@ -52,4 +60,4 @@ Agradecimientos al equipo de la Subsecretaría de las Culturas y las Artes, espe
 
 ### Última revisión
 
-8 de diciembre de 2025.
+9 de diciembre de 2025.
