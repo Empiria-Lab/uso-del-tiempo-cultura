@@ -386,7 +386,7 @@ cor_to_long <- function(cor_mat) {
 cor_weekday_long <- cor_to_long(cor_weekday)
 cor_weekend_long <- cor_to_long(cor_weekend)
 
-## Weekday correaltions heatmap
+## Weekday correlations heatmap
 p_cor_weekday <-
   ggplot(
   cor_weekday_long,
@@ -438,7 +438,7 @@ ggsave(
   device   = cairo_pdf
 )
 
-## Weekend correaltions heatmap
+## Weekend correlations heatmap
 p_cor_weekend <-
   ggplot(
   cor_weekend_long,
