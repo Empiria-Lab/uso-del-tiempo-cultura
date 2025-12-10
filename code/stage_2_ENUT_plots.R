@@ -345,9 +345,9 @@ activity_labels <- c(
 make_wide <- function(day) {
   overall_long %>%
     filter(day_type == day) %>%
-    select(profile_id, profile_label, time_set, mean_hours) %>%
+    select(profile_label, time_set, mean_hours) %>%
     pivot_wider(
-      id_cols    = c(profile_id, profile_label),
+      id_cols    = c(profile_label),
       names_from = time_set,
       values_from = mean_hours
     )
