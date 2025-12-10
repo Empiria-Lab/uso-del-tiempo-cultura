@@ -13,7 +13,14 @@
     - Perfil 4
     - Perfil 5
 
-- **time_set**. 
+- **time_set**. Variable categórica que identifica uso de tiempo en distintas actividades:
+    - t_ap. Actividades personales.
+    - t_cgt. Carga global.
+    - t_to. Trabajo en ocupación.
+    - t_tnr. Trabajo no remunerado.
+    - t_tvaoh. Trabajo voluntario y ayuda a otros hogares.
+    - t_tdnr. Trabajo doméstico no remunerado.
+    - t_tcnr. Trabajo de cuidados no remunerado.
 
 - **day_type**. Variable categórica que distingue entre días de semana y días de fines de semana.
 
