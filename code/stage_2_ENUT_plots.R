@@ -184,7 +184,7 @@ p_overall
 
 ## Save as PNG in A4 portrait (300 dpi)
 ggsave(
-  filename = "results/figures/plot_1_overall_profiles.png",
+  filename = "results/figures/ENUT_overall_profiles.png",
   plot     = p_overall,
   dpi      = 300,
   width    = 18,
@@ -194,7 +194,7 @@ ggsave(
 
 ## Save as PDF in A4 portrait (300 dpi)
 ggsave(
-  filename = "results/figures/plot_1_overall_profiles.pdf",
+  filename = "results/figures/ENUT_overall_profiles.pdf",
   plot     = p_overall,
   dpi      = 300,
   width    = 18,
@@ -307,7 +307,7 @@ p_spider
 
 ## Save as PNG in A4 portrait (300 dpi)
 ggsave(
-  filename = "results/figures/plot_2_spider.png",
+  filename = "results/figures/ENUT_spider_plot.png",
   plot     = p_spider,
   dpi      = 300,
   width    = 18,
@@ -317,7 +317,7 @@ ggsave(
 
 ## Save as PDF in A4 portrait (300 dpi)
 ggsave(
-  filename = "results/figures/plot_2_spider.pdf",
+  filename = "results/figures/ENUT_spider_plot.pdf",
   plot     = p_spider,
   dpi      = 300,
   width    = 18,
@@ -419,7 +419,7 @@ p_cor_weekday
 
 ## Save as PNG (300 dpi)
 ggsave(
-  filename = "results/figures/plot_3_weekday_correlations.png",
+  filename = "results/figures/ENUT_weekday_correlations.png",
   plot     = p_cor_weekday,
   dpi      = 300,
   width    = 20,
@@ -429,7 +429,7 @@ ggsave(
 
 ## Save as PDF (300 dpi)
 ggsave(
-  filename = "results/figures/plot_3_weekday_correlations.pdf",
+  filename = "results/figures/ENUT_weekday_correlations.pdf",
   plot     = p_cor_weekday,
   dpi      = 300,
   width    = 20,
@@ -471,7 +471,7 @@ p_cor_weekend
 
 ## Save as PNG (300 dpi)
 ggsave(
-  filename = "results/figures/plot_4_weekend_correlations.png",
+  filename = "results/figures/ENUT_weekend_correlations.png",
   plot     = p_cor_weekend,
   dpi      = 300,
   width    = 20,
@@ -481,7 +481,7 @@ ggsave(
 
 ## Save as PDF (300 dpi)
 ggsave(
-  filename = "results/figures/plot_4_weekend_correlations.pdf",
+  filename = "results/figures/ENUT_weekend_correlations.pdf",
   plot     = p_cor_weekend,
   dpi      = 300,
   width    = 20,
