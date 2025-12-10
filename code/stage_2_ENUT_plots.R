@@ -132,7 +132,7 @@ pd <- position_dodge(width = 0.5)
 
 ## Build the plot in A4/portrait layout
 p_overall <- 
-ggplot(
+  ggplot(
   cartesian_plot,
   aes(
     x      = reorder(time_set, mean_hours),
@@ -179,6 +179,9 @@ ggplot(
   ) +
   labs(y = "Promedio de horas")
 
+## Print plot
+p_overall
+
 ## Save as PNG in A4 portrait (300 dpi)
 ggsave(
   filename = "results/figures/plot_1_overall_profiles.png",
@@ -197,7 +200,7 @@ ggsave(
   width    = 18,
   height   = 26,
   units    = "cm",
-  device   = cairo_pdf  # good for text rendering
+  device   = cairo_pdf
 )
 
 ###############################################################################
@@ -254,7 +257,7 @@ max_hours <- max(spider_plot$mean_hours, na.rm = TRUE)
 
 ## Spider plot
 p_spider <-
-ggplot(
+  ggplot(
   spider_plot,
   aes(
     x      = time_set,
@@ -298,6 +301,9 @@ ggplot(
     ## plot.title        = element_text(face = "bold"),
     ## plot.caption      = element_text(size = 10, colour = "grey40", hjust = 0)
   )
+
+## Print plot
+p_spider
 
 ## Save as PNG in A4 portrait (300 dpi)
 ggsave(
@@ -382,7 +388,7 @@ cor_weekend_long <- cor_to_long(cor_weekend)
 
 ## Weekday correaltions heatmap
 p_cor_weekday <-
-ggplot(
+  ggplot(
   cor_weekday_long,
   aes(x = var1_label, y = var2_label, fill = r)
   ) +
@@ -408,7 +414,10 @@ ggplot(
     ## plot.caption  = element_text(size = 8, colour = "grey40", hjust = 0)
   )
 
-## Save as PNG in A4 portrait (300 dpi)
+## Print plot
+p_cor_weekday
+
+## Save as PNG (300 dpi)
 ggsave(
   filename = "results/figures/plot_3_weekday_correlations.png",
   plot     = p_cor_weekday,
@@ -418,7 +427,7 @@ ggsave(
   units    = "cm"
 )
 
-## Save as PDF in A4 portrait (300 dpi)
+## Save as PDF (300 dpi)
 ggsave(
   filename = "results/figures/plot_3_weekday_correlations.pdf",
   plot     = p_cor_weekday,
@@ -431,7 +440,7 @@ ggsave(
 
 ## Weekend correaltions heatmap
 p_cor_weekend <-
-ggplot(
+  ggplot(
   cor_weekend_long,
   aes(x = var1_label, y = var2_label, fill = r)
 ) +
@@ -457,7 +466,10 @@ ggplot(
     ## plot.caption  = element_text(size = 8, colour = "grey40", hjust = 0)
   )
 
-## Save as PNG in A4 portrait (300 dpi)
+## Print plot
+p_cor_weekend
+
+## Save as PNG (300 dpi)
 ggsave(
   filename = "results/figures/plot_4_weekend_correlations.png",
   plot     = p_cor_weekend,
@@ -467,7 +479,7 @@ ggsave(
   units    = "cm"
 )
 
-## Save as PDF in A4 portrait (300 dpi)
+## Save as PDF (300 dpi)
 ggsave(
   filename = "results/figures/plot_4_weekend_correlations.pdf",
   plot     = p_cor_weekend,
