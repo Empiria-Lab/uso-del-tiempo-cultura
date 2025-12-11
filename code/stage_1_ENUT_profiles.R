@@ -48,30 +48,64 @@ vec_vars_ppales <- na.omit(unique(stringr::str_extract(
 ## Preprocessing
 enut <- enut %>%
   mutate(
-    ## Age: if -96 is missing
+    ## NSE
+    NSE = as.numeric(NSE),
+    NSE = ifelse(NSE == 96, NA_real_, NSE),
+    ## Age (-96 is missing)
     edad = as.numeric(edad),
     edad = ifelse(edad == -96, NA_real_, edad),
-    ## Disability: 1 = yes, 2 = no, 96 = missing
+    ## Education
+    nivel_educ = as.numeric(nivel_educ),
+    nivel_educ = ifelse(nivel_educ == 96, NA_real_, nivel_educ),
+    ## Sex
+    sexo = as.numeric(sexo),
+    sexo = ifelse(sexo == 96, NA_real_, NSE),
+    ## Disability
     pesd = as.numeric(pesd),
-    pesd = case_when(
-      pesd == 1  ~ 1,
-      pesd == 2  ~ 0,
-      pesd == 96 ~ NA_real_,
-      TRUE       ~ NA_real_
-      ),
+    pesd = ifelse(pesd == 96, NA_real_, pesd),
     ## Mirroring ENUT-ENPCCL
     grupos_etarios = case_when(
       edad >= 15 & edad <= 29 ~ 1, 
       edad >= 30 & edad <= 64 ~ 2,
       edad >= 65 ~ 3,
-      TRUE ~ NA
+      TRUE ~ NA_real_
       ),
     nivel_educ = case_when(
+      nivel_educ == 0 ~ 0,
       nivel_educ == 2 ~ 1,
       nivel_educ == 3 ~ 2,
       nivel_educ == 4 ~ 2,
       nivel_educ == 5 ~ 3,
-      TRUE ~ NA)
+      TRUE ~ NA_real_),
+    ## Time variables
+    t_ap_ds = as.numeric(t_ap_ds),
+    t_ap_ds = ifelse(t_ap_ds == 96, NA_real_, t_ap_ds),
+    t_ap_fds = as.numeric(t_ap_fds),
+    t_ap_fds = ifelse(t_ap_fds == 96, NA_real_, t_ap_fds),
+    t_cgt_ds = as.numeric(t_cgt_ds),
+    t_cgt_ds = ifelse(t_cgt_ds == 96, NA_real_, t_cgt_ds),
+    t_cgt_fds = as.numeric(t_cgt_fds),
+    t_cgt_fds = ifelse(t_cgt_fds == 96, NA_real_, t_cgt_fds),
+    t_to_ds = as.numeric(t_to_ds),
+    t_to_ds = ifelse(t_to_ds == 96, NA_real_, t_to_ds),
+    t_to_fds = as.numeric(t_to_fds),
+    t_to_fds = ifelse(t_to_fds == 96, NA_real_, t_to_fds),
+    t_tnr_ds = as.numeric(t_tnr_ds),
+    t_tnr_ds = ifelse(t_tnr_ds == 96, NA_real_, t_tnr_ds),
+    t_tnr_fds = as.numeric(t_tnr_fds),
+    t_tnr_fds = ifelse(t_tnr_fds == 96, NA_real_, t_tnr_fds),
+    t_tvaoh_ds = as.numeric(t_tvaoh_ds),
+    t_tvaoh_ds = ifelse(t_tvaoh_ds == 96, NA_real_, t_tvaoh_ds),
+    t_tvaoh_fds = as.numeric(t_tvaoh_fds),
+    t_tvaoh_fds = ifelse(t_tvaoh_fds == 96, NA_real_, t_tvaoh_fds),
+    t_tdnr_ds = as.numeric(t_tdnr_ds),
+    t_tdnr_ds = ifelse(t_tdnr_ds == 96, NA_real_, t_tdnr_ds),
+    t_tdnr_fds = as.numeric(t_tdnr_fds),
+    t_tdnr_fds = ifelse(t_tdnr_fds == 96, NA_real_, t_tdnr_fds),
+    t_tcnr_ds = as.numeric(t_tcnr_ds),
+    t_tcnr_ds = ifelse(t_tcnr_ds == 96, NA_real_, t_tcnr_ds),
+    t_tcnr_fds = as.numeric(t_tcnr_fds),
+    t_tcnr_fds = ifelse(t_tcnr_fds == 96, NA_real_, t_tcnr_fds),
     )
 
 ###############################################################################
