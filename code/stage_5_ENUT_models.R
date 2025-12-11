@@ -88,10 +88,10 @@ pin_write(board_folder("results/models"), ols_8, name = "ENUT_ols_8", versioned 
 bptest(ols_1) ## Robust SEs are NOT necessary
 bptest(ols_2) ## Robust SEs are necessary
 bptest(ols_3) ## Robust SEs are necessary
-bptest(ols_4) ## Robust SEs are necessary
+bptest(ols_4) ## Robust SEs are NOT necessary
 bptest(ols_5) ## Robust SEs are NOT necessary
 bptest(ols_6) ## Robust SEs are necessary
-bptest(ols_7) ## Robust SEs are NOT necessary
+bptest(ols_7) ## Robust SEs are necessary
 bptest(ols_8) ## Robust SEs are NOT necessary
 ## I am going to use H1 anyway because of the size of the sample and \hat{y}
 
@@ -183,16 +183,45 @@ bform <- bf(
 )
 
 ## Priors informed by profiles
-global_mu <- mean(merged_df$mean_hours, na.rm = TRUE)
-global_sd <- sd(merged_df$mean_hours, na.rm = TRUE)
-priors <- c(
+global_mu_1 <- mean(merged_df$mean_hours[merged_df$time_set == "t_ap"], na.rm = TRUE)
+global_sd_1 <- sd(merged_df$mean_hours[merged_df$time_set == "t_ap"], na.rm = TRUE)
+global_mu_2 <- mean(merged_df$mean_hours[merged_df$time_set == "t_cgt"], na.rm = TRUE)
+global_sd_2 <- sd(merged_df$mean_hours[merged_df$time_set == "t_cgt"], na.rm = TRUE)
+global_mu_3 <- mean(merged_df$mean_hours[merged_df$time_set == "t_to"], na.rm = TRUE)
+global_sd_3 <- sd(merged_df$mean_hours[merged_df$time_set == "t_to"], na.rm = TRUE)
+global_mu_4 <- mean(merged_df$mean_hours[merged_df$time_set == "t_tnr"], na.rm = TRUE)
+global_sd_4 <- sd(merged_df$mean_hours[merged_df$time_set == "t_tnr"], na.rm = TRUE)
+
+## Priors
+priors_1 <- c(
   ## prior(normal(global_mu, global_sd * 2), class = "Intercept"),
-  prior(normal(6.3, 10), class = "Intercept"),
+  prior(normal(16.9, 3), class = "Intercept"),
   ## prior(normal(0, global_sd / 2), class = "b"),
-  prior(normal(0, 2.5), class = "b"),
+  prior(normal(0, 1.5), class = "b"),
   ## prior(exponential(1 / global_sd), class = "sigma")
-  prior(exponential(0.2), class = "sigma")
+  prior(exponential(0.6), class = "sigma")
 )
+priors_2 <- c(
+  prior(normal(6.7, 4.4), class = "Intercept"),
+  prior(normal(0, 2.2), class = "b"),
+  prior(exponential(0.5), class = "sigma")
+)
+priors_3 <- c(
+  prior(normal(7.8, 1.6), class = "Intercept"),
+  prior(normal(0, 0.8), class = "b"),
+  prior(exponential(1.2), class = "sigma")
+)
+priors_4 <- c(
+  prior(normal(4.2, 2.4), class = "Intercept"),
+  prior(normal(0, 1.2), class = "b"),
+  prior(exponential(0.8), class = "sigma")
+)
+
+## Sanity check
+global_mu_4
+global_sd_4 * 2
+global_sd_4
+1 / global_sd_4
 
 ## Bayesian models
 
@@ -200,7 +229,7 @@ bayesian_1 <- brm(
   formula = bform,
   data    = subset(merged_df, time_set == "t_ap"),
   family  = gaussian(),
-  prior   = priors,
+  prior   = priors_1,
   chains  = 4,
   cores   = 4,
   iter    = 4000,
@@ -211,7 +240,7 @@ bayesian_2 <- brm(
   formula = bform,
   data    = subset(merged_df, time_set == "t_cgt"),
   family  = gaussian(),
-  prior   = priors,
+  prior   = priors_2,
   chains  = 4,
   cores   = 4,
   iter    = 4000,
@@ -222,7 +251,7 @@ bayesian_3 <- brm(
   formula = bform,
   data    = subset(merged_df, time_set == "t_to"),
   family  = gaussian(),
-  prior   = priors,
+  prior   = priors_3,
   chains  = 4,
   cores   = 4,
   iter    = 4000,
@@ -233,7 +262,7 @@ bayesian_4 <- brm(
   formula = bform,
   data    = subset(merged_df, time_set == "t_tnr"),
   family  = gaussian(),
-  prior   = priors,
+  prior   = priors_4,
   chains  = 4,
   cores   = 4,
   iter    = 4000,
@@ -246,4 +275,3 @@ tab_model(bayesian_1, bayesian_2, bayesian_3, bayesian_4,
           dv.labels = c("AP", "CGT", "TO", "TNR"),
           pred.labels = c("Constant ","Profile 1", "Profile 2", "Profile 3", "Profile 4", "Profile 5"),
           rm.terms = c("day_typeDíadesemana", "subsampleEdu", "subsampleNSE", "subsampleSex"))
-
