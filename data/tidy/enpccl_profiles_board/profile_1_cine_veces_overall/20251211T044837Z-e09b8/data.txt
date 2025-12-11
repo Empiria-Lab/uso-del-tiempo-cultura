@@ -1,0 +1,10 @@
+file: profile_1_cine_veces_overall.parquet
+file_size: 1442
+pin_hash: e09b84d24a29ff0c
+type: parquet
+title: 'profile_1_cine_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044837Z
+api_version: 1

@@ -1,0 +1,10 @@
+file: profile_4_cine_veces_by_NSE.parquet
+file_size: 1773
+pin_hash: bd33a60b83ef078d
+type: parquet
+title: 'profile_4_cine_veces_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044919Z
+api_version: 1

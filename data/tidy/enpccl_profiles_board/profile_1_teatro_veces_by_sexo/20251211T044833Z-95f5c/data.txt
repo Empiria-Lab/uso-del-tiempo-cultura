@@ -1,0 +1,10 @@
+file: profile_1_teatro_veces_by_sexo.parquet
+file_size: 1799
+pin_hash: 95f5c927de592ab2
+type: parquet
+title: 'profile_1_teatro_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044833Z
+api_version: 1

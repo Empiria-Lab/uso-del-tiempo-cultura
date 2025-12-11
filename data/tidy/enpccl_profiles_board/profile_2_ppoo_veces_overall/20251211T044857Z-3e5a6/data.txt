@@ -1,0 +1,10 @@
+file: profile_2_ppoo_veces_overall.parquet
+file_size: 1442
+pin_hash: 3e5a601cf9d4da5d
+type: parquet
+title: 'profile_2_ppoo_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044857Z
+api_version: 1

@@ -1,0 +1,10 @@
+file: profile_5_artesania_veces_by_nivel_educ.parquet
+file_size: 1889
+pin_hash: 4084ca9ebadd53b7
+type: parquet
+title: 'profile_5_artesania_veces_by_nivel_educ: a pinned 5 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044934Z
+api_version: 1

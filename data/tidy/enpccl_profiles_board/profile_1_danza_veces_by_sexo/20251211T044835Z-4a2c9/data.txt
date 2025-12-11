@@ -1,0 +1,10 @@
+file: profile_1_danza_veces_by_sexo.parquet
+file_size: 1798
+pin_hash: 4a2c9f69b1e3c751
+type: parquet
+title: 'profile_1_danza_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044835Z
+api_version: 1

@@ -1,0 +1,10 @@
+file: profile_6_artesania_veces_overall.parquet
+file_size: 1504
+pin_hash: 36750ef1c33b2b15
+type: parquet
+title: 'profile_6_artesania_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044945Z
+api_version: 1

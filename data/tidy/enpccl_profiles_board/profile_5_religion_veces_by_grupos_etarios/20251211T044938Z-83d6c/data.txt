@@ -1,0 +1,10 @@
+file: profile_5_religion_veces_by_grupos_etarios.parquet
+file_size: 1804
+pin_hash: 83d6c01893c1aa88
+type: parquet
+title: 'profile_5_religion_veces_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044938Z
+api_version: 1

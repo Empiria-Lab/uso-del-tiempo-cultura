@@ -1,0 +1,10 @@
+file: profile_6_musica_veces_by_grupos_etarios.parquet
+file_size: 1859
+pin_hash: f44048924b3d63a4
+type: parquet
+title: 'profile_6_musica_veces_by_grupos_etarios: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044943Z
+api_version: 1

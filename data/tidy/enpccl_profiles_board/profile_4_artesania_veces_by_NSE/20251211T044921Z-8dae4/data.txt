@@ -1,0 +1,10 @@
+file: profile_4_artesania_veces_by_NSE.parquet
+file_size: 1822
+pin_hash: 8dae4277daccb17c
+type: parquet
+title: 'profile_4_artesania_veces_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044921Z
+api_version: 1

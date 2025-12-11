@@ -1,0 +1,10 @@
+file: profile_3_ppoo_veces_by_nivel_educ.parquet
+file_size: 1838
+pin_hash: c28d526d3a37fee6
+type: parquet
+title: 'profile_3_ppoo_veces_by_nivel_educ: a pinned 5 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044911Z
+api_version: 1

@@ -1,0 +1,10 @@
+file: profile_5_musica_veces_by_NSE.parquet
+file_size: 1798
+pin_hash: 49f588e6ff64855e
+type: parquet
+title: 'profile_5_musica_veces_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044930Z
+api_version: 1

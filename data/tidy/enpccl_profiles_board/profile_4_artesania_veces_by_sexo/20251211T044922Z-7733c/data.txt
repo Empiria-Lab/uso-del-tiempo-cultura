@@ -1,0 +1,10 @@
+file: profile_4_artesania_veces_by_sexo.parquet
+file_size: 1826
+pin_hash: 7733ca5349bc9ca3
+type: parquet
+title: 'profile_4_artesania_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044922Z
+api_version: 1

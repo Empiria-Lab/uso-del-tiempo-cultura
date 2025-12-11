@@ -1,0 +1,10 @@
+file: profile_3_danza_veces_by_grupos_etarios.parquet
+file_size: 1842
+pin_hash: 5756055b0e11ee6b
+type: parquet
+title: 'profile_3_danza_veces_by_grupos_etarios: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044903Z
+api_version: 1

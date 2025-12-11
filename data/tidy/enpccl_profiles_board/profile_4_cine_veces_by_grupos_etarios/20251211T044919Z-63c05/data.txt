@@ -1,0 +1,10 @@
+file: profile_4_cine_veces_by_grupos_etarios.parquet
+file_size: 1764
+pin_hash: 63c0584506f4dec3
+type: parquet
+title: 'profile_4_cine_veces_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044919Z
+api_version: 1

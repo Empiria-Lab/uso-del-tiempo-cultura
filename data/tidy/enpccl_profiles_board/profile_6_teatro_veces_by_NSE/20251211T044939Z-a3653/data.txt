@@ -1,0 +1,10 @@
+file: profile_6_teatro_veces_by_NSE.parquet
+file_size: 1798
+pin_hash: a365327d18afe304
+type: parquet
+title: 'profile_6_teatro_veces_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044939Z
+api_version: 1

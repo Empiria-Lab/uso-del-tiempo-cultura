@@ -1,0 +1,10 @@
+file: profile_1_religion_veces_overall.parquet
+file_size: 1494
+pin_hash: 3f1cc1b1515c449e
+type: parquet
+title: 'profile_1_religion_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044844Z
+api_version: 1

@@ -1,0 +1,10 @@
+file: profile_1_ppoo_veces_by_grupos_etarios.parquet
+file_size: 1834
+pin_hash: fe16871e21c8ede5
+type: parquet
+title: 'profile_1_ppoo_veces_by_grupos_etarios: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044844Z
+api_version: 1

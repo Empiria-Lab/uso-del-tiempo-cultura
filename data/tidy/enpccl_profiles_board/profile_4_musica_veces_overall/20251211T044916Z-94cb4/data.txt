@@ -1,0 +1,10 @@
+file: profile_4_musica_veces_overall.parquet
+file_size: 1466
+pin_hash: 94cb4e0e3d66462c
+type: parquet
+title: 'profile_4_musica_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044916Z
+api_version: 1

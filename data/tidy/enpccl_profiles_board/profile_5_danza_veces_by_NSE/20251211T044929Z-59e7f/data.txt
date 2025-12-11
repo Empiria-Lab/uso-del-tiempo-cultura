@@ -1,0 +1,10 @@
+file: profile_5_danza_veces_by_NSE.parquet
+file_size: 1781
+pin_hash: 59e7f81f238ada09
+type: parquet
+title: 'profile_5_danza_veces_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044929Z
+api_version: 1

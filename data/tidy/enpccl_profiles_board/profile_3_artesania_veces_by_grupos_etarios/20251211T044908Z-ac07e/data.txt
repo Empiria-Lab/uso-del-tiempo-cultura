@@ -1,0 +1,10 @@
+file: profile_3_artesania_veces_by_grupos_etarios.parquet
+file_size: 1883
+pin_hash: ac07ef4778e9085e
+type: parquet
+title: 'profile_3_artesania_veces_by_grupos_etarios: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044908Z
+api_version: 1

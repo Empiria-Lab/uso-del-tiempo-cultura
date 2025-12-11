@@ -1,0 +1,10 @@
+file: profile_5_cine_veces_by_nivel_educ.parquet
+file_size: 1838
+pin_hash: 9fd28cc3cb2052d5
+type: parquet
+title: 'profile_5_cine_veces_by_nivel_educ: a pinned 5 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044932Z
+api_version: 1

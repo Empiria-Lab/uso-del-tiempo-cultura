@@ -1,0 +1,10 @@
+file: profile_4_religion_veces_by_sexo.parquet
+file_size: 1817
+pin_hash: 51bbc7e942c961b3
+type: parquet
+title: 'profile_4_religion_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044927Z
+api_version: 1

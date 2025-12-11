@@ -1,0 +1,10 @@
+file: profile_4_teatro_veces_by_grupos_etarios.parquet
+file_size: 1788
+pin_hash: 87ddd40d75bcb5cc
+type: parquet
+title: 'profile_4_teatro_veces_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044914Z
+api_version: 1

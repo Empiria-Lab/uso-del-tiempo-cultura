@@ -1,0 +1,10 @@
+file: profile_4_arte_veces_overall.parquet
+file_size: 1442
+pin_hash: 4d4683d55b8bb0e7
+type: parquet
+title: 'profile_4_arte_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044922Z
+api_version: 1

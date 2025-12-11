@@ -1,0 +1,10 @@
+file: profile_6_danza_veces_overall.parquet
+file_size: 1452
+pin_hash: f25022277e4d2b78
+type: parquet
+title: 'profile_6_danza_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044941Z
+api_version: 1

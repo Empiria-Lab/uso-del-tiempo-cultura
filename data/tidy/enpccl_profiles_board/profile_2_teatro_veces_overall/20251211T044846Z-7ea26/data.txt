@@ -1,0 +1,10 @@
+file: profile_2_teatro_veces_overall.parquet
+file_size: 1466
+pin_hash: 7ea26cef8021fa1f
+type: parquet
+title: 'profile_2_teatro_veces_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044846Z
+api_version: 1

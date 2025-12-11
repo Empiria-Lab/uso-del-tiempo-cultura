@@ -1,0 +1,10 @@
+file: profile_6_musica_veces_by_sexo.parquet
+file_size: 1799
+pin_hash: 203728139d69e299
+type: parquet
+title: 'profile_6_musica_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044944Z
+api_version: 1

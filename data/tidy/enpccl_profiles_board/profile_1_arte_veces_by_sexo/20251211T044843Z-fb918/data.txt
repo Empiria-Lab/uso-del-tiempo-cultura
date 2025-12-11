@@ -1,0 +1,10 @@
+file: profile_1_arte_veces_by_sexo.parquet
+file_size: 1788
+pin_hash: fb918b75241186c7
+type: parquet
+title: 'profile_1_arte_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044843Z
+api_version: 1

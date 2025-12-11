@@ -1,0 +1,10 @@
+file: profile_4_ppoo_veces_by_sexo.parquet
+file_size: 1788
+pin_hash: e4f89013f90b1ed6
+type: parquet
+title: 'profile_4_ppoo_veces_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T044924Z
+api_version: 1
