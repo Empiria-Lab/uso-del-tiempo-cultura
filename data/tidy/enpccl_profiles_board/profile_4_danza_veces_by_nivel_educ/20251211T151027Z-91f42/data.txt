@@ -1,0 +1,10 @@
+file: profile_4_danza_veces_by_nivel_educ.parquet
+file_size: 1833
+pin_hash: 91f42b9813fc7043
+type: parquet
+title: 'profile_4_danza_veces_by_nivel_educ: a pinned 4 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T151027Z
+api_version: 1

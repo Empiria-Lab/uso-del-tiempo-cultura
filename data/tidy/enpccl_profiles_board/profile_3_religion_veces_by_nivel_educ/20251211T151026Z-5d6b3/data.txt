@@ -1,0 +1,10 @@
+file: profile_3_religion_veces_by_nivel_educ.parquet
+file_size: 1861
+pin_hash: 5d6b3163189e4b95
+type: parquet
+title: 'profile_3_religion_veces_by_nivel_educ: a pinned 4 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T151026Z
+api_version: 1

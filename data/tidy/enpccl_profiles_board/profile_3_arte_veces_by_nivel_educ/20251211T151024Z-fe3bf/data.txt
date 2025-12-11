@@ -1,0 +1,10 @@
+file: profile_3_arte_veces_by_nivel_educ.parquet
+file_size: 1823
+pin_hash: fe3bfd0a8eaf603a
+type: parquet
+title: 'profile_3_arte_veces_by_nivel_educ: a pinned 4 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T151024Z
+api_version: 1

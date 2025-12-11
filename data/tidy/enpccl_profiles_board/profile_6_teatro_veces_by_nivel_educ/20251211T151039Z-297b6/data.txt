@@ -1,0 +1,10 @@
+file: profile_6_teatro_veces_by_nivel_educ.parquet
+file_size: 1822
+pin_hash: 297b60dad26dde8e
+type: parquet
+title: 'profile_6_teatro_veces_by_nivel_educ: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T151039Z
+api_version: 1
