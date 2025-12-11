@@ -136,9 +136,7 @@ stargazer(
   model.numbers   = FALSE,
   omit.stat       = c("f", "ser"),
   column.labels   = c("AP", "AP", "CGT", "CGT", "TO", "TO", "TNR", "TNR"),
-  omit            = c(
-    "day_type", "subsample"
-  ),
+  omit            = c("day_type", "subsample"),
   add.lines = list(
     c("Errores robustos", "Sí", "Sí", "Sí", "Sí", "Sí", "Sí", "Sí", "Sí"),
     c("Tipo de día", "No", "Sí", "No", "Sí", "No", "Sí", "No", "Sí"),
