@@ -27,8 +27,6 @@ library(plm)
 library(stargazer)
 library(fmsb)
 library(performance)
-library(brms)
-library(sjPlot)
 
 ###############################################################################
 ## 3. Import profiles
@@ -93,7 +91,7 @@ bptest(ols_5) ## Robust SEs are NOT necessary
 bptest(ols_6) ## Robust SEs are NOT necessary
 bptest(ols_7) ## Robust SEs are NOT necessary
 bptest(ols_8) ## Robust SEs are NOT necessary
-## I am going to use H1 anyway because of the size of the sample and \hat{y}
+## I am going to use HC3 anyway because it is a small sample
 
 ###############################################################################
 ## 6. Generate models table
@@ -101,14 +99,14 @@ bptest(ols_8) ## Robust SEs are NOT necessary
 
 ## Reestimating p-values
 pval_list <- list(
-  coeftest(ols_1, vcov = vcovHC(ols_1, type = "HC1"))[, 4],
-  coeftest(ols_2, vcov = vcovHC(ols_2, type = "HC1"))[, 4],
-  coeftest(ols_3, vcov = vcovHC(ols_3, type = "HC1"))[, 4],
-  coeftest(ols_4, vcov = vcovHC(ols_4, type = "HC1"))[, 4],
-  coeftest(ols_5, vcov = vcovHC(ols_5, type = "HC1"))[, 4],
-  coeftest(ols_6, vcov = vcovHC(ols_6, type = "HC1"))[, 4],
-  coeftest(ols_7, vcov = vcovHC(ols_7, type = "HC1"))[, 4],
-  coeftest(ols_8, vcov = vcovHC(ols_8, type = "HC1"))[, 4]
+  coeftest(ols_1, vcov = vcovHC(ols_1, type = "HC3"))[, 4],
+  coeftest(ols_2, vcov = vcovHC(ols_2, type = "HC3"))[, 4],
+  coeftest(ols_3, vcov = vcovHC(ols_3, type = "HC3"))[, 4],
+  coeftest(ols_4, vcov = vcovHC(ols_4, type = "HC3"))[, 4],
+  coeftest(ols_5, vcov = vcovHC(ols_5, type = "HC3"))[, 4],
+  coeftest(ols_6, vcov = vcovHC(ols_6, type = "HC3"))[, 4],
+  coeftest(ols_7, vcov = vcovHC(ols_7, type = "HC3"))[, 4],
+  coeftest(ols_8, vcov = vcovHC(ols_8, type = "HC3"))[, 4]
 )
 
 ## LaTeX table
@@ -122,14 +120,14 @@ stargazer(
   model.names     = FALSE,
   dep.var.labels  = c("Horas de actividad"),
   se = list(
-    coeftest(ols_1, vcov = vcovHC(ols_1, type = "HC1"))[, 2],
-    coeftest(ols_2, vcov = vcovHC(ols_2, type = "HC1"))[, 2],
-    coeftest(ols_3, vcov = vcovHC(ols_3, type = "HC1"))[, 2],
-    coeftest(ols_4, vcov = vcovHC(ols_4, type = "HC1"))[, 2],
-    coeftest(ols_5, vcov = vcovHC(ols_5, type = "HC1"))[, 2],
-    coeftest(ols_6, vcov = vcovHC(ols_6, type = "HC1"))[, 2],
-    coeftest(ols_7, vcov = vcovHC(ols_7, type = "HC1"))[, 2],
-    coeftest(ols_8, vcov = vcovHC(ols_8, type = "HC1"))[, 2]
+    coeftest(ols_1, vcov = vcovHC(ols_1, type = "HC3"))[, 2],
+    coeftest(ols_2, vcov = vcovHC(ols_2, type = "HC3"))[, 2],
+    coeftest(ols_3, vcov = vcovHC(ols_3, type = "HC3"))[, 2],
+    coeftest(ols_4, vcov = vcovHC(ols_4, type = "HC3"))[, 2],
+    coeftest(ols_5, vcov = vcovHC(ols_5, type = "HC3"))[, 2],
+    coeftest(ols_6, vcov = vcovHC(ols_6, type = "HC3"))[, 2],
+    coeftest(ols_7, vcov = vcovHC(ols_7, type = "HC3"))[, 2],
+    coeftest(ols_8, vcov = vcovHC(ols_8, type = "HC3"))[, 2]
   ),
   p = pval_list,
   notes.align     = "c",
