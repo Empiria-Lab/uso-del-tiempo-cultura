@@ -41,10 +41,6 @@ vec_vars_ppales <- na.omit(unique(stringr::str_extract(
   pattern = "^(p|t)\\_.*\\_(ds|fds|dt)$"
 )))
 
-## Missing in age is -96
-## enut <- enut %>%
-## mutate(across(all_of(vec_vars_ppales), ~if_else(. == 96, NA, .)))
-
 ## Preprocessing
 enut <- enut %>%
   mutate(
