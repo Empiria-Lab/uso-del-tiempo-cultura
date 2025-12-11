@@ -8,13 +8,13 @@
 "Profile_1","t_cgt",1,"Día de semana",6.16585360387072,0.147832403162607
 "Profile_1","t_cgt",2,"Día de semana",6.74507541738864,0.123105716678236
 "Profile_1","t_cgt",3,"Día de semana",6.82158054446677,0.199690551418664
-"Profile_1","t_cgt",1,"Día de fin de semana",4.19357344470989,0.146884677648468
+"Profile_1","t_cgt",1,"Día de fin de semana",4.17282642326743,0.14510610503243
 "Profile_1","t_cgt",2,"Día de fin de semana",4.70503672364407,0.11709376577303
 "Profile_1","t_cgt",3,"Día de fin de semana",4.42450420110602,0.180337752326267
-"Profile_1","t_tcnr",1,"Día de semana",1.65561387816233,0.120548832856168
+"Profile_1","t_tcnr",1,"Día de semana",1.52897524589926,0.0784476824466326
 "Profile_1","t_tcnr",2,"Día de semana",1.8981891723007,0.0984140047268111
 "Profile_1","t_tcnr",3,"Día de semana",1.80774692056296,0.212170616329273
-"Profile_1","t_tcnr",1,"Día de fin de semana",1.55891856402466,0.13261253880101
+"Profile_1","t_tcnr",1,"Día de fin de semana",1.48354592508562,0.109956909303397
 "Profile_1","t_tcnr",2,"Día de fin de semana",1.77960287716591,0.11173984922912
 "Profile_1","t_tcnr",3,"Día de fin de semana",2.02364878673073,0.273809201956372
 "Profile_1","t_tdnr",1,"Día de semana",3.05418358337871,0.0978819419227657
@@ -29,17 +29,17 @@
 "Profile_1","t_tnr",1,"Día de fin de semana",3.36377182462396,0.120588002597293
 "Profile_1","t_tnr",2,"Día de fin de semana",3.80331229117031,0.0862075981076941
 "Profile_1","t_tnr",3,"Día de fin de semana",3.65422089310642,0.141708131575019
-"Profile_1","t_to",1,"Día de semana",7.96299882936982,0.214739751578747
-"Profile_1","t_to",2,"Día de semana",8.28546598888767,0.123635032197621
+"Profile_1","t_to",1,"Día de semana",7.90436213220701,0.206977865290978
+"Profile_1","t_to",2,"Día de semana",8.27181506772763,0.122691423547157
 "Profile_1","t_to",3,"Día de semana",7.97617165679628,0.236859992096492
-"Profile_1","t_to",1,"Día de fin de semana",7.40171435849621,0.477603481609451
-"Profile_1","t_to",2,"Día de fin de semana",7.61496192839728,0.26980036072307
+"Profile_1","t_to",1,"Día de fin de semana",7.07552250070236,0.422335022421352
+"Profile_1","t_to",2,"Día de fin de semana",7.5713205763554,0.267740147859746
 "Profile_1","t_to",3,"Día de fin de semana",7.28476261618074,0.727800365282101
-"Profile_1","t_tvaoh",1,"Día de semana",5.48891266471541,0.757824889330118
-"Profile_1","t_tvaoh",2,"Día de semana",4.76982027201244,0.65504458356105
-"Profile_1","t_tvaoh",3,"Día de semana",5.76750777304155,1.13831628303831
+"Profile_1","t_tvaoh",1,"Día de semana",4.54975862586996,0.390371868719773
+"Profile_1","t_tvaoh",2,"Día de semana",3.76344812985586,0.229978161869557
+"Profile_1","t_tvaoh",3,"Día de semana",4.22613105281173,0.481315668359944
 "Profile_1","t_tvaoh",1,"Día de fin de semana",4.08709793957299,0.46535386465913
-"Profile_1","t_tvaoh",2,"Día de fin de semana",4.22954286562294,0.342613447420925
+"Profile_1","t_tvaoh",2,"Día de fin de semana",4.10504701435095,0.321202781944549
 "Profile_1","t_tvaoh",3,"Día de fin de semana",3.74269891221439,0.506433366548417
 "Profile_2","t_ap",1,"Día de semana",16.0151180390716,0.155690897543656
 "Profile_2","t_ap",2,"Día de semana",16.2127913179272,0.150002313281379
@@ -50,80 +50,80 @@
 "Profile_2","t_cgt",1,"Día de semana",6.89524438325134,0.186754288083575
 "Profile_2","t_cgt",2,"Día de semana",7.49835320091759,0.150760516983326
 "Profile_2","t_cgt",3,"Día de semana",8.14601988451424,0.318172504622089
-"Profile_2","t_cgt",1,"Día de fin de semana",5.12860394902214,0.170197053992241
-"Profile_2","t_cgt",2,"Día de fin de semana",5.52806532329217,0.15027978052817
-"Profile_2","t_cgt",3,"Día de fin de semana",5.97891781095116,0.31123265626373
-"Profile_2","t_tcnr",1,"Día de semana",2.26428945824632,0.184214759745589
+"Profile_2","t_cgt",1,"Día de fin de semana",5.10208135099102,0.168224386229121
+"Profile_2","t_cgt",2,"Día de fin de semana",5.51020517838847,0.149770721508614
+"Profile_2","t_cgt",3,"Día de fin de semana",5.78457684047606,0.270925997286001
+"Profile_2","t_tcnr",1,"Día de semana",1.96337842230818,0.105263706589659
 "Profile_2","t_tcnr",2,"Día de semana",2.27701521414775,0.0991147068221453
 "Profile_2","t_tcnr",3,"Día de semana",2.64832182330776,0.318375713718126
-"Profile_2","t_tcnr",1,"Día de fin de semana",1.93408101392699,0.132191503513266
-"Profile_2","t_tcnr",2,"Día de fin de semana",2.15117745270869,0.114761278405168
+"Profile_2","t_tcnr",1,"Día de fin de semana",1.87033166490124,0.117972714823657
+"Profile_2","t_tcnr",2,"Día de fin de semana",2.12506670964118,0.111853469042245
 "Profile_2","t_tcnr",3,"Día de fin de semana",2.80095278552381,0.217424993336376
 "Profile_2","t_tdnr",1,"Día de semana",3.2790807006039,0.0976277859643663
 "Profile_2","t_tdnr",2,"Día de semana",3.23397895749068,0.0782963263610099
 "Profile_2","t_tdnr",3,"Día de semana",3.40978179709861,0.147408704583888
 "Profile_2","t_tdnr",1,"Día de fin de semana",3.05457216670968,0.0935124468317038
-"Profile_2","t_tdnr",2,"Día de fin de semana",3.15297695577436,0.0756486899640365
-"Profile_2","t_tdnr",3,"Día de fin de semana",3.64418733006902,0.343592052760414
+"Profile_2","t_tdnr",2,"Día de fin de semana",3.14315619566572,0.0748050395856979
+"Profile_2","t_tdnr",3,"Día de fin de semana",3.20351318658042,0.14601306922555
 "Profile_2","t_tnr",1,"Día de semana",4.43752711682898,0.135228979153646
 "Profile_2","t_tnr",2,"Día de semana",4.56479948408228,0.122894317241346
 "Profile_2","t_tnr",3,"Día de semana",4.81879306544501,0.259586607412173
 "Profile_2","t_tnr",1,"Día de fin de semana",4.10538243346645,0.139414528390771
-"Profile_2","t_tnr",2,"Día de fin de semana",4.2812555830395,0.11915489748451
-"Profile_2","t_tnr",3,"Día de fin de semana",4.80469242276514,0.369151641319951
+"Profile_2","t_tnr",2,"Día de fin de semana",4.27175303244618,0.118701927445234
+"Profile_2","t_tnr",3,"Día de fin de semana",4.37363162010281,0.215888350686326
 "Profile_2","t_to",1,"Día de semana",7.67605685894582,0.203012441766006
-"Profile_2","t_to",2,"Día de semana",8.43463127662658,0.136962145167927
-"Profile_2","t_to",3,"Día de semana",9.16499618664948,0.756985081303446
-"Profile_2","t_to",1,"Día de fin de semana",7.06974944567692,0.402443176199042
-"Profile_2","t_to",2,"Día de fin de semana",7.82149204753525,0.331887078320312
-"Profile_2","t_to",3,"Día de fin de semana",8.32735270938015,0.810395274611766
-"Profile_2","t_tvaoh",1,"Día de semana",4.68535356125614,0.704784907973824
-"Profile_2","t_tvaoh",2,"Día de semana",3.88617003115789,0.369843335435062
-"Profile_2","t_tvaoh",3,"Día de semana",7.12906951799716,2.49786464366109
+"Profile_2","t_to",2,"Día de semana",8.41084108477684,0.135075142929471
+"Profile_2","t_to",3,"Día de semana",8.48480333786908,0.348245813552975
+"Profile_2","t_to",1,"Día de fin de semana",6.89937737335607,0.361178579476554
+"Profile_2","t_to",2,"Día de fin de semana",7.59448878159165,0.303975379701061
+"Profile_2","t_to",3,"Día de fin de semana",8.17248424766413,0.796762843152591
+"Profile_2","t_tvaoh",1,"Día de semana",4.10598406867821,0.387962318684356
+"Profile_2","t_tvaoh",2,"Día de semana",3.6268557144844,0.315446298122843
+"Profile_2","t_tvaoh",3,"Día de semana",4.79484171953539,1.07833093571872
 "Profile_2","t_tvaoh",1,"Día de fin de semana",4.54325219238569,0.493959111198534
-"Profile_2","t_tvaoh",2,"Día de fin de semana",4.1263181783195,0.3730147499976
-"Profile_2","t_tvaoh",3,"Día de fin de semana",2.68343295439582,0.46332236146734
+"Profile_2","t_tvaoh",2,"Día de fin de semana",3.99091135101287,0.348196249641391
+"Profile_2","t_tvaoh",3,"Día de fin de semana",2.42901005105921,0.378153304224629
 "Profile_3","t_ap",1,"Día de semana",15.851837574901,0.191284688536877
-"Profile_3","t_ap",2,"Día de semana",15.4838974678618,0.186497123727407
+"Profile_3","t_ap",2,"Día de semana",15.4662333472533,0.185714098770786
 "Profile_3","t_ap",3,"Día de semana",15.0209085308946,0.251472998271808
 "Profile_3","t_ap",1,"Día de fin de semana",16.8862210242553,0.219787769352033
-"Profile_3","t_ap",2,"Día de fin de semana",16.8096006762508,0.179461465579647
+"Profile_3","t_ap",2,"Día de fin de semana",16.7922273966124,0.17879810144814
 "Profile_3","t_ap",3,"Día de fin de semana",17.7183521931158,0.320629196635135
 "Profile_3","t_cgt",1,"Día de semana",8.75448503739786,0.206067192700961
 "Profile_3","t_cgt",2,"Día de semana",9.77343690714621,0.223903370451043
 "Profile_3","t_cgt",3,"Día de semana",11.1432629483308,0.279583765476021
 "Profile_3","t_cgt",1,"Día de fin de semana",6.2954038780925,0.181380403685519
-"Profile_3","t_cgt",2,"Día de fin de semana",7.26731261869419,0.196371869592732
+"Profile_3","t_cgt",2,"Día de fin de semana",7.24325966885459,0.195202332124502
 "Profile_3","t_cgt",3,"Día de fin de semana",7.81913143175256,0.272642528429391
 "Profile_3","t_tcnr",1,"Día de semana",2.64353566982986,0.0858294680584818
 "Profile_3","t_tcnr",2,"Día de semana",3.11968341424899,0.0985210394443339
 "Profile_3","t_tcnr",3,"Día de semana",3.49787743353302,0.129093014929738
 "Profile_3","t_tcnr",1,"Día de fin de semana",2.70001311108461,0.0968361145810728
-"Profile_3","t_tcnr",2,"Día de fin de semana",3.09765196532736,0.0992888977748299
+"Profile_3","t_tcnr",2,"Día de fin de semana",3.04783111943823,0.093810119488765
 "Profile_3","t_tcnr",3,"Día de fin de semana",3.96376070386789,0.20046258133799
 "Profile_3","t_tdnr",1,"Día de semana",2.9693397251294,0.0911159505322861
 "Profile_3","t_tdnr",2,"Día de semana",3.06999203262028,0.0925001688937485
 "Profile_3","t_tdnr",3,"Día de semana",2.87271685918108,0.113244595220352
 "Profile_3","t_tdnr",1,"Día de fin de semana",2.83129093357549,0.0936199573032956
 "Profile_3","t_tdnr",2,"Día de fin de semana",3.28656944720025,0.0959666166741065
-"Profile_3","t_tdnr",3,"Día de fin de semana",3.22946997617009,0.147892008167036
+"Profile_3","t_tdnr",3,"Día de fin de semana",3.19964953539955,0.144277270156206
 "Profile_3","t_tnr",1,"Día de semana",5.25025802473924,0.13025901970018
 "Profile_3","t_tnr",2,"Día de semana",5.77831845398705,0.16701492070056
 "Profile_3","t_tnr",3,"Día de semana",5.98795920187416,0.189046370595848
 "Profile_3","t_tnr",1,"Día de fin de semana",4.86283685412947,0.152993741446885
-"Profile_3","t_tnr",2,"Día de fin de semana",5.88413116008854,0.151927445209776
+"Profile_3","t_tnr",2,"Día de fin de semana",5.85921769931355,0.150118128878444
 "Profile_3","t_tnr",3,"Día de fin de semana",6.56004918093174,0.245084318452077
-"Profile_3","t_to",1,"Día de semana",8.65200768642136,0.198329695437597
-"Profile_3","t_to",2,"Día de semana",8.68717591780579,0.155135981999745
-"Profile_3","t_to",3,"Día de semana",8.67476835077801,0.39859225835575
+"Profile_3","t_to",1,"Día de semana",8.54344752011883,0.16743429147484
+"Profile_3","t_to",2,"Día de semana",8.60394702156939,0.145957039529911
+"Profile_3","t_to",3,"Día de semana",8.33147076366906,0.206793551942806
 "Profile_3","t_to",1,"Día de fin de semana",7.44399312553025,0.377446539044588
-"Profile_3","t_to",2,"Día de fin de semana",7.81917253741508,0.559520853402684
+"Profile_3","t_to",2,"Día de fin de semana",7.19583162692362,0.306023030891155
 "Profile_3","t_to",3,"Día de fin de semana",6.30652549637562,0.544893359474059
 "Profile_3","t_tvaoh",1,"Día de semana",2.62698233837549,0.480586908494378
-"Profile_3","t_tvaoh",2,"Día de semana",5.58391956684686,1.84311003333137
+"Profile_3","t_tvaoh",2,"Día de semana",2.95284247131362,0.366370668976128
 "Profile_3","t_tvaoh",3,"Día de semana",2.68954197584062,0.551422760042686
 "Profile_3","t_tvaoh",1,"Día de fin de semana",3.21190949347397,0.517666496457891
-"Profile_3","t_tvaoh",2,"Día de fin de semana",3.98200190726962,0.464571258555582
+"Profile_3","t_tvaoh",2,"Día de fin de semana",3.76085053531485,0.403916538978648
 "Profile_3","t_tvaoh",3,"Día de fin de semana",2.62522645071055,0.622466397577121
 "Profile_4","t_ap",1,"Día de semana",15.1112077554345,0.14183784668721
 "Profile_4","t_ap",2,"Día de semana",15.3128135877554,0.129527164462982
@@ -159,11 +159,11 @@
 "Profile_4","t_to",2,"Día de semana",8.03270210261173,0.207733079411762
 "Profile_4","t_to",3,"Día de semana",7.20353169010832,0.384491194487105
 "Profile_4","t_to",1,"Día de fin de semana",7.19483409900032,0.467828013630057
-"Profile_4","t_to",2,"Día de fin de semana",7.42031538998982,0.370462867858409
+"Profile_4","t_to",2,"Día de fin de semana",7.25261324393556,0.335692711345789
 "Profile_4","t_to",3,"Día de fin de semana",5.5687249705009,0.802745166177289
-"Profile_4","t_tvaoh",1,"Día de semana",5.68877835983307,0.942300895807656
-"Profile_4","t_tvaoh",2,"Día de semana",5.55441242520929,1.02124305776331
-"Profile_4","t_tvaoh",3,"Día de semana",5.70581270456839,1.47181503633125
+"Profile_4","t_tvaoh",1,"Día de semana",4.84032053693922,0.535093284153473
+"Profile_4","t_tvaoh",2,"Día de semana",4.39869481129393,0.299352207813785
+"Profile_4","t_tvaoh",3,"Día de semana",4.10223484190372,0.554522067695467
 "Profile_4","t_tvaoh",1,"Día de fin de semana",4.2025005583053,0.481922413448146
 "Profile_4","t_tvaoh",2,"Día de fin de semana",4.27748629056207,0.372557316645787
 "Profile_4","t_tvaoh",3,"Día de fin de semana",4.52535500712726,0.665162721492876
@@ -197,7 +197,7 @@
 "Profile_5","t_tnr",1,"Día de fin de semana",4.00512622948001,0.271216108122709
 "Profile_5","t_tnr",2,"Día de fin de semana",3.71459615131131,0.158610461737323
 "Profile_5","t_tnr",3,"Día de fin de semana",3.90313774708046,0.230906360770754
-"Profile_5","t_to",1,"Día de semana",8.32795905832963,0.445067626119269
+"Profile_5","t_to",1,"Día de semana",8.03391656043548,0.334893199064251
 "Profile_5","t_to",2,"Día de semana",8.81766473511487,0.183518358632633
 "Profile_5","t_to",3,"Día de semana",8.9783709530336,0.21059850442202
 "Profile_5","t_to",1,"Día de fin de semana",7.40952823677203,0.659876431385248
@@ -205,7 +205,7 @@
 "Profile_5","t_to",3,"Día de fin de semana",6.94607985442852,0.657432595636763
 "Profile_5","t_tvaoh",1,"Día de semana",4.58976286124566,0.803080847274074
 "Profile_5","t_tvaoh",2,"Día de semana",3.33781751955553,0.45087334476829
-"Profile_5","t_tvaoh",3,"Día de semana",6.2541233695756,2.83613256024523
+"Profile_5","t_tvaoh",3,"Día de semana",3.48842438518716,0.619890623878535
 "Profile_5","t_tvaoh",1,"Día de fin de semana",4.63082185699068,0.755835429575769
 "Profile_5","t_tvaoh",2,"Día de fin de semana",4.10190872126504,0.391810917653602
 "Profile_5","t_tvaoh",3,"Día de fin de semana",3.23370831308836,0.595565479649088
