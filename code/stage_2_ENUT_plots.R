@@ -50,9 +50,6 @@ overall_df <- imap_dfr(
   ~ .x %>% mutate(pin_name = .y)
 )
 
-## Sanity check
-## write.csv(overall_df, "data/tidy/profiles_board_overall.csv", row.names = FALSE)
-
 ## Kind-of pivoting
 overall_long <- overall_df %>%
   rowwise() %>%
