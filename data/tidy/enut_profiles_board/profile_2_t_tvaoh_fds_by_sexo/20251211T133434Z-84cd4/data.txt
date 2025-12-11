@@ -1,0 +1,10 @@
+file: profile_2_t_tvaoh_fds_by_sexo.parquet
+file_size: 1798
+pin_hash: 84cd4df8d02e1aff
+type: parquet
+title: 'profile_2_t_tvaoh_fds_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T133434Z
+api_version: 1

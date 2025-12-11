@@ -1,0 +1,10 @@
+file: profile_5_t_to_fds_by_sexo.parquet
+file_size: 1768
+pin_hash: 20623c8cb68fe1be
+type: parquet
+title: 'profile_5_t_to_fds_by_sexo: a pinned 2 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T133601Z
+api_version: 1
