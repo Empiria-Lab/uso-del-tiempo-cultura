@@ -43,8 +43,9 @@ vec_vars_ppales <- na.omit(unique(stringr::str_extract(
 
 ## Missing in age is -96
 ## enut <- enut %>%
-  ## mutate(across(all_of(vec_vars_ppales), ~if_else(. == 96, NA, .)))
+## mutate(across(all_of(vec_vars_ppales), ~if_else(. == 96, NA, .)))
 
+## Preprocessing
 enut <- enut %>%
   mutate(
     ## Age: if -96 is missing
@@ -79,7 +80,7 @@ enut_hh_flags <- enut %>%
   group_by(id_hog) %>%
   summarise(
     hh_n = n(),
-    hh_has_elderly   = any(edad >= 60, na.rm = TRUE), ## Law 19.828 SENAMA
+    hh_has_elderly   = any(edad >= 65, na.rm = TRUE), ## New threshold
     hh_has_child_0_5 = any(edad <= 5,  na.rm = TRUE),
     hh_has_disabled  = any(pesd == 1, na.rm = TRUE)
   )
@@ -92,16 +93,17 @@ enut2 <- enut %>%
     g1_person_with_elderly = as.integer(hh_has_elderly),
     ## 2. Personas en hogares con personas en situación de discapacidad
     g2_person_with_disabled = as.integer(hh_has_disabled),
-    ## 3. Personas en hogares con hijos de 0-5 años"
+    ## 3. Personas en hogares con hijos de 0-5 años
     g3_person_with_child0_5 = as.integer(hh_has_child_0_5),
     ## 4. Personas mayores
-    g4_elderly = as.integer(edad >= 60),
+    g4_elderly = as.integer(edad >= 65), ## New threshold
     ## 5. Personas adultas en hogares unipersonales
-    g5_single_adult = as.integer(hh_n == 1 & edad >= 18 & edad < 60),
+    g5_single_adult = as.integer(hh_n == 1 & edad >= 30 & edad < 65), ## New range
     ## Useful flags
     ## is_adult        = edad >= 18, ## Redundant
     is_young_adult  = edad >= 18 & edad <= 29, ## Parejas jóvenes, Observatorio Social
-    is_minor        = edad < 18
+    is_minor        = edad < 18,
+    is_couple       = c8a == 1 ## New variable
   )
 
 ## Young couple w/o children
@@ -111,12 +113,13 @@ enut_young_couple_hh <- enut2 %>%
     hh_n = first(hh_n),
     ## all_adults       = all(is_adult, na.rm = TRUE), ## Redundant
     any_minor        = any(is_minor, na.rm = TRUE),
-    all_young_adults = all(is_young_adult, na.rm = TRUE)
+    all_young_adults = all(is_young_adult, na.rm = TRUE),
+    couple           = all(is_couple, na.rm = TRUE)
   ) %>%
   mutate(
     hh_young_couple_no_children =
       ## hh_n == 2 & all_adults & !any_minor & all_young_adults ## Redundant
-      hh_n == 2 & !any_minor & all_young_adults
+      hh_n == 2 & !any_minor & all_young_adults ## Including new variable
   ) %>%
   select(id_hog, hh_young_couple_no_children)
 
@@ -124,12 +127,13 @@ enut_young_couple_hh <- enut2 %>%
 enut3 <- enut2 %>%
   left_join(enut_young_couple_hh, by = "id_hog") %>%
   mutate(
+    ## 6. Parejas jóvenes sin hijos/as
     g6_young_couple_no_children =
       as.integer(hh_young_couple_no_children)
   )
 
 ###############################################################################
-## 5. Survey design and time info
+## 5. Survey design
 ###############################################################################
 
 ## Filter
@@ -153,13 +157,13 @@ options(survey.lonely.psu = "certainty")
 
 ## Time-variable pairs
 time_sets <- list(
-  t_ap    = c("t_ap_ds",    "t_ap_fds"),
-  t_cgt   = c("t_cgt_ds",   "t_cgt_fds"),
-  t_to    = c("t_to_ds",    "t_to_fds"),
-  t_tnr   = c("t_tnr_ds",   "t_tnr_fds"),
+  t_ap    = c("t_ap_ds", "t_ap_fds"),
+  t_cgt   = c("t_cgt_ds", "t_cgt_fds"),
+  t_to    = c("t_to_ds", "t_to_fds"),
+  t_tnr   = c("t_tnr_ds", "t_tnr_fds"),
   t_tvaoh = c("t_tvaoh_ds", "t_tvaoh_fds"),
-  t_tdnr  = c("t_tdnr_ds",  "t_tdnr_fds"),
-  t_tcnr  = c("t_tcnr_ds",  "t_tcnr_fds")
+  t_tdnr  = c("t_tdnr_ds", "t_tdnr_fds"),
+  t_tcnr  = c("t_tcnr_ds", "t_tcnr_fds")
 )
 
 ## Profiles
