@@ -51,7 +51,6 @@ enut <- enut %>%
     ## Age: if -96 is missing
     edad = as.numeric(edad),
     edad = ifelse(edad == -96, NA_real_, edad),
-    
     ## Disability: 1 = yes, 2 = no, 96 = missing
     pesd = as.numeric(pesd),
     pesd = case_when(
@@ -59,17 +58,21 @@ enut <- enut %>%
       pesd == 2  ~ 0,
       pesd == 96 ~ NA_real_,
       TRUE       ~ NA_real_
-    )
-  )
-
-## Age groups
-enut <- enut %>%
-  mutate(
+      ),
+    ## Mirroring ENUT-ENPCCL
     grupos_etarios = case_when(
-      edad >= 13 & edad <= 17 ~ 1, 
-      edad >= 18 & edad <= 59 ~ 2,
-      edad >= 60 ~ 3,
-      TRUE ~ NA))
+      edad >= 15 & edad <= 29 ~ 1, 
+      edad >= 30 & edad <= 64 ~ 2,
+      edad >= 65 ~ 3,
+      TRUE ~ NA
+      ),
+    nivel_educ = case_when(
+      nivel_educ == 2 ~ 1,
+      nivel_educ == 3 ~ 2,
+      nivel_educ == 4 ~ 2,
+      nivel_educ == 5 ~ 3,
+      TRUE ~ NA)
+    )
 
 ###############################################################################
 ## 4. Profiles
