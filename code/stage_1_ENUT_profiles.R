@@ -59,7 +59,7 @@ enut <- enut %>%
     nivel_educ = ifelse(nivel_educ == 96, NA_real_, nivel_educ),
     ## Sex
     sexo = as.numeric(sexo),
-    sexo = ifelse(sexo == 96, NA_real_, NSE),
+    sexo = ifelse(sexo == 96, NA_real_, sexo),
     ## Disability
     pesd = as.numeric(pesd),
     pesd = ifelse(pesd == 96, NA_real_, pesd),
