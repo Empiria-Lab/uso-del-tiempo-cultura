@@ -32,7 +32,7 @@ library(tibble)
 ###############################################################################
 
 ## Open the board
-board_profiles <- board_folder("data/tidy/profiles_board")
+board_profiles <- board_folder("data/tidy/enut_profiles_board")
 pin_names <- pin_list(board_profiles)
 overall_names <- pin_names[grepl("_overall$", pin_names)]
 
