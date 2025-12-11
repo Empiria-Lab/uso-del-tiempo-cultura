@@ -1,0 +1,10 @@
+file: profile_2_t_tdnr_ds_by_sexo.parquet
+file_size: 1777
+pin_hash: f1bb8a4bb534a235
+type: parquet
+title: 'profile_2_t_tdnr_ds_by_sexo: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T114937Z
+api_version: 1

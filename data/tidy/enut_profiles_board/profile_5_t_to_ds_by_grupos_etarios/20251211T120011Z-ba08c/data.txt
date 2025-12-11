@@ -1,0 +1,10 @@
+file: profile_5_t_to_ds_by_grupos_etarios.parquet
+file_size: 1736
+pin_hash: ba08cf6868c3982b
+type: parquet
+title: 'profile_5_t_to_ds_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T120011Z
+api_version: 1

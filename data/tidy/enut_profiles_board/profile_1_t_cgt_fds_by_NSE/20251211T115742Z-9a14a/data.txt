@@ -1,0 +1,10 @@
+file: profile_1_t_cgt_fds_by_NSE.parquet
+file_size: 1776
+pin_hash: 9a14a1fc8ca57d42
+type: parquet
+title: 'profile_1_t_cgt_fds_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T115742Z
+api_version: 1
