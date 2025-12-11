@@ -1,0 +1,10 @@
+file: profile_5_t_tnr_ds_by_nivel_educ.parquet
+file_size: 1802
+pin_hash: 3898080d838148f7
+type: parquet
+title: 'profile_5_t_tnr_ds_by_nivel_educ: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T025022Z
+api_version: 1

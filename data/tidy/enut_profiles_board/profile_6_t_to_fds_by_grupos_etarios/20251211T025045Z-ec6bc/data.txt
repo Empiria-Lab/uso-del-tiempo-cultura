@@ -1,0 +1,10 @@
+file: profile_6_t_to_fds_by_grupos_etarios.parquet
+file_size: 1748
+pin_hash: ec6bc1ed7b347e48
+type: parquet
+title: 'profile_6_t_to_fds_by_grupos_etarios: a pinned 1 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T025045Z
+api_version: 1

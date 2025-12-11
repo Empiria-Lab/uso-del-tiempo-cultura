@@ -1,0 +1,10 @@
+file: profile_3_t_ap_ds_by_grupos_etarios.parquet
+file_size: 1815
+pin_hash: 9093d1568cb7842c
+type: parquet
+title: 'profile_3_t_ap_ds_by_grupos_etarios: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T024844Z
+api_version: 1

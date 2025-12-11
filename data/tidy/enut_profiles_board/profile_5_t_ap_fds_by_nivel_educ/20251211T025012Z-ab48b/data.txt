@@ -1,0 +1,10 @@
+file: profile_5_t_ap_fds_by_nivel_educ.parquet
+file_size: 1804
+pin_hash: ab48b3c98a4aad32
+type: parquet
+title: 'profile_5_t_ap_fds_by_nivel_educ: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T025012Z
+api_version: 1

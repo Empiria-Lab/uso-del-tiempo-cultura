@@ -1,0 +1,10 @@
+file: profile_5_t_to_fds_by_NSE.parquet
+file_size: 1768
+pin_hash: c3a2050d104110c4
+type: parquet
+title: 'profile_5_t_to_fds_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T025018Z
+api_version: 1

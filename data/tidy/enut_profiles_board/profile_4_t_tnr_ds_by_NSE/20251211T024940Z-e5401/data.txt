@@ -1,0 +1,10 @@
+file: profile_4_t_tnr_ds_by_NSE.parquet
+file_size: 1766
+pin_hash: e54012bc78447c9a
+type: parquet
+title: 'profile_4_t_tnr_ds_by_NSE: a pinned 3 x 9 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T024940Z
+api_version: 1

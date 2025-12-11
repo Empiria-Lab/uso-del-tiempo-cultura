@@ -1,0 +1,10 @@
+file: profile_4_t_tcnr_fds_overall.parquet
+file_size: 1442
+pin_hash: 8127423024ec8a65
+type: parquet
+title: 'profile_4_t_tcnr_fds_overall: a pinned 1 x 7 data frame'
+description: ~
+tags: ~
+urls: ~
+created: 20251211T025005Z
+api_version: 1
