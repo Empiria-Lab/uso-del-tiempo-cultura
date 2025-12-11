@@ -44,7 +44,7 @@ pin_names <- pin_list(board_profiles)
 overall_names <- pin_names[grepl(paste0("_", target_var, "$"), pin_names)]
 
 ###############################################################################
-## 3. Pre-processing
+## 5. Processing
 ###############################################################################
 
 ## Read overall profiles
