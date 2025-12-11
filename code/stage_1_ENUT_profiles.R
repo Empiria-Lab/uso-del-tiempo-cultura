@@ -33,7 +33,7 @@ library(pins)
 enut <- readRDS("data/raw/250403-ii-enut-bdd-r-v2.RDS")
 
 ## Board to store parquet
-board_profiles <- board_folder("data/tidy/profiles_board")
+board_profiles <- board_folder("data/tidy/enut_profiles_board")
 
 ## Cleaning missing values 
 vec_vars_ppales <- na.omit(unique(stringr::str_extract(
@@ -47,11 +47,11 @@ vec_vars_ppales <- na.omit(unique(stringr::str_extract(
 
 enut <- enut %>%
   mutate(
-    # Age: if -96 is missing
+    ## Age: if -96 is missing
     edad = as.numeric(edad),
     edad = ifelse(edad == -96, NA_real_, edad),
     
-    # Disability: 1 = yes, 2 = no, 96 = missing
+    ## Disability: 1 = yes, 2 = no, 96 = missing
     pesd = as.numeric(pesd),
     pesd = case_when(
       pesd == 1  ~ 1,
@@ -69,10 +69,6 @@ enut <- enut %>%
       edad >= 18 & edad <= 59 ~ 2,
       edad >= 60 ~ 3,
       TRUE ~ NA))
-
-## Check
-enut$nivel_educ
-enut$NSE
 
 ###############################################################################
 ## 4. Profiles
@@ -103,7 +99,7 @@ enut2 <- enut %>%
     ## 5. Personas adultas en hogares unipersonales
     g5_single_adult = as.integer(hh_n == 1 & edad >= 18 & edad < 60),
     ## Useful flags
-    is_adult        = edad >= 18,
+    ## is_adult        = edad >= 18, ## Redundant
     is_young_adult  = edad >= 18 & edad <= 29, ## Parejas jóvenes, Observatorio Social
     is_minor        = edad < 18
   )
@@ -113,13 +109,14 @@ enut_young_couple_hh <- enut2 %>%
   group_by(id_hog) %>%
   summarise(
     hh_n = first(hh_n),
-    all_adults       = all(is_adult, na.rm = TRUE),
+    ## all_adults       = all(is_adult, na.rm = TRUE), ## Redundant
     any_minor        = any(is_minor, na.rm = TRUE),
     all_young_adults = all(is_young_adult, na.rm = TRUE)
   ) %>%
   mutate(
     hh_young_couple_no_children =
-      hh_n == 2 & all_adults & !any_minor & all_young_adults
+      ## hh_n == 2 & all_adults & !any_minor & all_young_adults ## Redundant
+      hh_n == 2 & !any_minor & all_young_adults
   ) %>%
   select(id_hog, hh_young_couple_no_children)
 
@@ -154,7 +151,7 @@ options(survey.lonely.psu = "certainty")
 ## 6. Time variables per profile
 ###############################################################################
 
-## Time-variable pairs (ds + fds)
+## Time-variable pairs
 time_sets <- list(
   t_ap    = c("t_ap_ds",    "t_ap_fds"),
   t_cgt   = c("t_cgt_ds",   "t_cgt_fds"),
