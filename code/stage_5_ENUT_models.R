@@ -92,7 +92,7 @@ bptest(ols_4) ## Robust SEs are NOT necessary
 bptest(ols_5) ## Robust SEs are NOT necessary
 bptest(ols_6) ## Robust SEs are necessary
 bptest(ols_7) ## Robust SEs are necessary
-bptest(ols_8) ## Robust SEs are NOT necessary
+bptest(ols_8) ## Robust SEs are necessary
 ## I am going to use H1 anyway because of the size of the sample and \hat{y}
 
 ###############################################################################
@@ -195,7 +195,7 @@ global_sd_4 <- sd(merged_df$mean_hours[merged_df$time_set == "t_tnr"], na.rm = T
 ## Priors
 priors_1 <- c(
   ## prior(normal(global_mu, global_sd * 2), class = "Intercept"),
-  prior(normal(16.9, 3), class = "Intercept"),
+  prior(normal(16.9, 3.1), class = "Intercept"),
   ## prior(normal(0, global_sd / 2), class = "b"),
   prior(normal(0, 1.5), class = "b"),
   ## prior(exponential(1 / global_sd), class = "sigma")
@@ -207,7 +207,7 @@ priors_2 <- c(
   prior(exponential(0.5), class = "sigma")
 )
 priors_3 <- c(
-  prior(normal(7.8, 1.6), class = "Intercept"),
+  prior(normal(7.7, 1.6), class = "Intercept"),
   prior(normal(0, 0.8), class = "b"),
   prior(exponential(1.2), class = "sigma")
 )
