@@ -409,7 +409,7 @@ p_cor_weekday <-
     legend.text   = element_text(size = 10),
     ## plot.title    = element_text(face = "bold"),
     ## plot.caption  = element_text(size = 8, colour = "grey40", hjust = 0)
-  )
+  ) + scale_y_discrete(limits = rev)
 
 ## Print plot
 p_cor_weekday
@@ -461,7 +461,7 @@ p_cor_weekend <-
     legend.text   = element_text(size = 10),
     ## plot.title    = element_text(face = "bold"),
     ## plot.caption  = element_text(size = 8, colour = "grey40", hjust = 0)
-  )
+  ) + scale_y_discrete(limits = rev)
 
 ## Print plot
 p_cor_weekend

@@ -94,14 +94,14 @@ cartesian_plot <- overall_long %>%
       ppoo      = "Ceremonia PPOO",
       religion  = "Fiesta religiosa"
     ),
-    ## time_set = factor(
-      ## time_set,
-      ## levels = c(
-        ## "Act. personales", "Carga global", "Trabajo en ocupación",
-        ## "Trabajo no remunerado", "Trabajo voluntario",
-        ## "Doméstico no remunerado", "Cuidados no remunerado"
-      ## )
-    ## ),
+    time_set = factor(
+      time_set,
+      levels = c(
+        "Obra de teatro", "Espectáculo de danza", "Concierto o recital",
+        "Cine", "Exposición de artesanía", "Exposición de arte",
+        "Ceremonia PPOO", "Fiesta religiosa"
+      )
+    ),
     ## Profile labels
     profile_label = recode(
       profile_label,
@@ -282,7 +282,7 @@ p_cor_annual <-
     legend.text   = element_text(size = 10),
     ## plot.title    = element_text(face = "bold"),
     ## plot.caption  = element_text(size = 8, colour = "grey40", hjust = 0)
-  )
+  ) + scale_y_discrete(limits = rev)
 
 ## Print plot
 p_cor_annual
