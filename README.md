@@ -31,7 +31,7 @@ A continuación se ofrece una breve descripción de los archivos relevantes de e
 
 - **code/stage_2_ENPCCL_plots.R**. Script de R que convierte los perfiles generales de ENPCCL 2024 en el archivo CSV `data/tidy/enpccl_profiles_overall.csv` y en las figuras del reporte disponibles en `results/figures`, incluyendo descriptivos y gráfico de correlaciones.
 
-- **code\stage_3_ENPCCL_disaggregation.R**. Script de R que convierte los perfiles desagregados de ENPCCL 2024 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data/tidy`.
+- **code/stage_3_ENPCCL_disaggregation.R**. Script de R que convierte los perfiles desagregados de ENPCCL 2024 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data/tidy`.
 
 - **code/stage_4_ENPCCL_pca.R**. Script de R que realiza el ACP y genera el gráfico de sedimentación para el anexo.
 
