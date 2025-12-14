@@ -17,25 +17,25 @@ Este repositorio se ha creado con control de versiones Git. Además, el entorno 
 
 A continuación se ofrece una breve descripción de los archivos relevantes de este repositorio:
 
-- **code\stage_1_ENUT_profiles.R**. Script de R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
+- **code/stage_1_ENUT_profiles.R**. Script de R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
 
-- **code\stage_2_ENUT_plots.R**. Script de R que convierte los perfiles generales de II ENUT 2023 en el archivo CSV `data\tidy\enut_profiles_overall.csv` y en las figuras del reporte disponibles en `results\figures`, incluyendo descriptivos y gráficos de correlaciones.
+- **code/stage_2_ENUT_plots.R**. Script de R que convierte los perfiles generales de II ENUT 2023 en el archivo CSV `data/tidy/enut_profiles_overall.csv` y en las figuras del reporte disponibles en `results/figures`, incluyendo descriptivos y gráficos de correlaciones.
 
-- **code\stage_3_ENUT_disaggregation.R**. Script de R que convierte los perfiles desagregados de II ENUT 2023 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data\tidy`.
+- **code/stage_3_ENUT_disaggregation.R**. Script de R que convierte los perfiles desagregados de II ENUT 2023 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data/tidy`.
 
-- **code\stage_4_ENUT_pca.R**. Script de R que realiza el Análisis de Componentes Principales (ACP) y genera los gráficos de sedimentación para el anexo.
+- **code/stage_4_ENUT_pca.R**. Script de R que realiza el Análisis de Componentes Principales (ACP) y genera los gráficos de sedimentación para el anexo.
 
-- **code\stage_5_ENUT_models.R**. Script de R que ajusta los modelos OLS, genera las tablas y ejecuta un prototitpo de modelo bayesiano para propagar el error de las estimaciones reajustando los intervalos de confianza de los coeficientes de los modelos.
+- **code/stage_5_ENUT_models.R**. Script de R que ajusta los modelos OLS, genera las tablas y ejecuta un prototitpo de modelo bayesiano para propagar el error de las estimaciones reajustando los intervalos de confianza de los coeficientes de los modelos.
 
-- **code\stage_1_ENPCCL_profiles.R**. Script de R que preprocesa los datos de ENPCCL 2024 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
+- **code/stage_1_ENPCCL_profiles.R**. Script de R que preprocesa los datos de ENPCCL 2024 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
 
-- **code\stage_2_ENPCCL_plots.R**. Script de R que convierte los perfiles generales de ENPCCL 2024 en el archivo CSV `data\tidy\enpccl_profiles_overall.csv` y en las figuras del reporte disponibles en `results\figures`, incluyendo descriptivos y gráfico de correlaciones.
+- **code/stage_2_ENPCCL_plots.R**. Script de R que convierte los perfiles generales de ENPCCL 2024 en el archivo CSV `data/tidy/enpccl_profiles_overall.csv` y en las figuras del reporte disponibles en `results/figures`, incluyendo descriptivos y gráfico de correlaciones.
 
-- **code\stage_3_ENPCCL_disaggregation.R**. Script de R que convierte los perfiles desagregados de ENPCCL 2024 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data\tidy`.
+- **code\stage_3_ENPCCL_disaggregation.R**. Script de R que convierte los perfiles desagregados de ENPCCL 2024 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data/tidy`.
 
-- **code\stage_4_ENPCCL_pca.R**. Script de R que realiza el ACP y genera el gráfico de sedimentación para el anexo.
+- **code/stage_4_ENPCCL_pca.R**. Script de R que realiza el ACP y genera el gráfico de sedimentación para el anexo.
 
-- **code\stage_5_ENPCCL_models.R**. Script de R que ajusta los modelos OLS y genera las tablas.
+- **code/stage_5_ENPCCL_models.R**. Script de R que ajusta los modelos OLS y genera las tablas.
 
 - **README.md**. La descripción general principal de este repositorioque proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
 
@@ -48,24 +48,24 @@ A continuación se ofrece una breve descripción de los archivos relevantes de e
 
 El repositorio también contiene las siguientes carpetas con archivos relevantes:
 
-- **data\code**. Contiene los scripts en R descritos previamente.
+- **data/code**. Contiene los scripts en R descritos previamente.
 
-- **data\raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL 2024 `enpccl_puf.RData`. ENPCLL 2024 pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
+- **data/raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL 2024 `enpccl_puf.RData`. ENPCLL 2024 pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
 
 > [!IMPORTANT]
 > ENPCCL 2024 `enpccl_puf.RData` se ha incorporado a `.gitignore` por su tamaño y los límites de LFS, por tanto, debe ser descargada desde https://www.cultura.gob.cl/participacioncultural/resultados-enpccl-2024/. II ENUT 2023 se está respaldada en el repositorio, sin embargo, también se puede descargar desde https://www.ine.gob.cl/estadisticas/sociales/genero/uso-del-tiempo. 
 
-- **data\tidy**. Contiene los archivos agregados de perfiles procesados con las bases de datos originales de II ENUT 2023 y ENPCCL 2024.
+- **data/tidy**. Contiene los archivos agregados de perfiles procesados con las bases de datos originales de II ENUT 2023 y ENPCCL 2024.
 
-- **data\tidy\enpccl_profiles_board**. Contiene las estimaciones de perfiles individuales de la ENPCCL 2024 en formato Parquet con el paquete `pins`.
+- **data/tidy/enpccl_profiles_board**. Contiene las estimaciones de perfiles individuales de la ENPCCL 2024 en formato Parquet con el paquete `pins`.
 
-- **data\tidy\enut_profiles_board**. Contiene las estimaciones de perfiles individuales de la II ENUT 2023 en formato Parquet con el paquete `pins`.
+- **data/tidy/enut_profiles_board**. Contiene las estimaciones de perfiles individuales de la II ENUT 2023 en formato Parquet con el paquete `pins`.
 
-- **results\figures**. Contiene las figuras del reporte generadas con los scripts de R en formato PDF y PNG (300 DPI).
+- **results/figures**. Contiene las figuras del reporte generadas con los scripts de R en formato PDF y PNG (300 DPI).
 
-- **results\models**. Contiene los modelos ajustados con las estimaciones de la II ENUT y ENPCCL 2024 en formato RDS con el paquete `pins`.
+- **results/models**. Contiene los modelos ajustados con las estimaciones de la II ENUT y ENPCCL 2024 en formato RDS con el paquete `pins`.
 
-- **results\tables**. Contiene las tablas de los modelos en formato HTML y TeX.
+- **results/tables**. Contiene las tablas de los modelos en formato HTML y TeX.
 
 ## Cómo empezar
 
