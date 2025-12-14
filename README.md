@@ -37,7 +37,7 @@ A continuación se ofrece una breve descripción de los archivos relevantes de e
 
 - **code/stage_5_ENPCCL_models.R**. Script de R que ajusta los modelos OLS y genera las tablas.
 
-- **README.md**. La descripción general principal de este repositorioque proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
+- **README.md**. La descripción general principal de este repositorio que proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
 
 - **renv.lock**. El archivo de bloqueo que especifica las versiones exactas de los paquetes utilizados en este proyecto, lo que garantiza un entorno computacional coherente para reproducir el estudio.
 
