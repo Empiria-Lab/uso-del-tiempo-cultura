@@ -1,7 +1,7 @@
 # uso-del-tiempo-cultura
 **Estudio análisis de uso del tiempo y relación con perfiles de participación cultural**
 
-[![WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/wip.svg)](STATUS.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/mit.svg)](LICENSE-MIT.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/cc_by_4_0.svg)](LICENSE-CC.md) [![Empiria](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/empirialab.svg)](https://empirialab.cl/)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/active.svg)](STATUS.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/mit.svg)](LICENSE-MIT.md) [![License](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/cc_by_4_0.svg)](LICENSE-CC.md) [![Empiria](https://raw.githubusercontent.com/Empiria-Lab/uso-del-tiempo-cultura/main/badges/empirialab.svg)](https://empirialab.cl/)
 
 ## Resumen
 
@@ -13,15 +13,42 @@ Para asegurar la reproducibilidad del estudio, todas las transformaciones y aná
 
 Este repositorio se ha creado con control de versiones Git. Además, el entorno de trabajo en R se ha gestionado con `renv`, lo que permite congelar y restaurar las versiones de los paquetes utilizados. Paralelamente, se ha generado un registro sistemático de dependencias y referencias bibliográficas asociadas a los paquetes empleados utilizando `grateful`, fortaleciendo la transparencia del ecosistema de software.
 
+### Archivos relevantes
+
 A continuación se ofrece una breve descripción de los **archivos relevantes** de este repositorio:
 
 - **code\stage_1_ENUT_profiles.R**. Script de R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
 
-- **code\stage_2_ENUT_plots.R**. Script de R que convierte los perfiles generales de II ENUT 2023 en el archivo CSV `data\tidy\enut_profiles_overall.csv` y en las figuras del reporte disponibles en `results\figures`.
+- **code\stage_2_ENUT_plots.R**. Script de R que convierte los perfiles generales de II ENUT 2023 en el archivo CSV `data\tidy\enut_profiles_overall.csv` y en las figuras del reporte disponibles en `results\figures`, incluyendo descriptivos y gráficos de correlaciones.
+
+- **code\stage_3_ENUT_disaggregation.R**. Script de R que convierte los perfiles desagregados de II ENUT 2023 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data\tidy`.
+
+- **code\stage_4_ENUT_pca.R**. Script de R que realiza el Análisis de Componentes Principales (ACP) y genera los gráficos de sedimentación para el anexo.
+
+- **code\stage_5_ENUT_models.R**. Script de R que ajusta los modelos OLS, genera las tablas y ejecuta un prototitpo de modelo bayesiano para propagar el error de las estimaciones reajustando los intervalos de confianza de los coeficientes de los modelos.
+
+- **code\stage_1_ENPCCL_profiles.R**. Script de R que preprocesa los datos de ENPCCL 2024 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
+
+- **code\stage_2_ENPCCL_plots.R**. Script de R que convierte los perfiles generales de ENPCCL 2024 en el archivo CSV `data\tidy\enpccl_profiles_overall.csv` y en las figuras del reporte disponibles en `results\figures`, incluyendo descriptivos y gráfico de correlaciones.
+
+- **code\stage_3_ENPCCL_disaggregation.R**. Script de R que convierte los perfiles desagregados de ENPCCL 2024 en archivos CSVs desagregados por nivel socioeconómico, grupos etarios, nivel educacional y sexo disponibles en `data\tidy`.
+
+- **code\stage_4_ENPCCL_pca.R**. Script de R que realiza el ACP y genera el gráfico de sedimentación para el anexo.
+
+- **code\stage_5_ENPCCL_models.R**. Script de R que ajusta los modelos OLS y genera las tablas.
 
 - **README.md**. La descripción general principal de este repositorioque proporciona metadatos, información sobre conservación e instrucciones para replicar los análisis.
 
+- **renv.lock**. El archivo de bloqueo que especifica las versiones exactas de los paquetes utilizados en este proyecto, lo que garantiza un entorno computacional coherente para reproducir el estudio.
+
+> [!TIP] 
+> El archivo [mini-codebook.md](data/tidy/mini_codebook.md) contiene las categorías utilizadas en los CSV para los perfiles generales y desagregados.
+
+### Carpetas relevantes
+
 El repositorio también contiene las siguientes **carpetas** con archivos relevantes:
+
+- **data\code**. Contiene los scripts en R descritos previamente.
 
 - **data\raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL 2024 `enpccl_puf.RData`. ENPCLL 2024 pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
 
@@ -30,17 +57,32 @@ El repositorio también contiene las siguientes **carpetas** con archivos releva
 
 - **data\tidy**. Contiene los archivos agregados de perfiles procesados con las bases de datos originales de II ENUT 2023 y ENPCCL 2024.
 
-- **data\tidy\profiles_board**. Contiene las estimaciones de perfiles individuales en formato Parquet con el paquete `pins`.
+- **data\tidy\enpccl_profiles_board**. Contiene las estimaciones de perfiles individuales de la ENPCCL 2024 en formato Parquet con el paquete `pins`.
 
-- **results\figures**. Contiene las figuras del reporte generadas con los scripts de R.
+- **data\tidy\enut_profiles_board**. Contiene las estimaciones de perfiles individuales de la II ENUT 2023 en formato Parquet con el paquete `pins`.
+
+- **results\figures**. Contiene las figuras del reporte generadas con los scripts de R en formato PDF y PNG (300 DPI).
+
+- **results\models**. Contiene los modelos ajustados con las estimaciones de la II ENUT y ENPCCL 2024 en formato RDS con el paquete `pins`.
+
+- **results\tables**. Contiene las tablas de los modelos en formato HTML y TeX.
 
 ## Cómo empezar
 
-El código original se escribió entre noviembre y diciembre de 2025 utilizando `R v4.5.0 -- How About a Twenty-Six`. Es importante señalar que `renv.lock` es el archivo de bloqueo del proyecto, y que todos los paquetes R instalados y necesarios se registran allí.
+El código original se escribió entre noviembre y diciembre de 2025 utilizando `R v4.5.0 -- How About a Twenty-Six`. Es importante señalar que `renv.lock` es el archivo de bloqueo del proyecto, y que todos los paquetes R instalados y necesarios se registran allí. Además, se puede revisar el reporte de los paquetes utilizados en [grateful-report.md](grateful-report.md).
 
 Para replicar los principales resultados del artículo, deben ejecutarse los siguientes archivos:
 
-**PENDIENTE**
+- [stage_1_ENUT_profiles.R](code/stage_1_ENUT_profiles.R)
+- [stage_2_ENUT_plots.R](code/stage_2_ENUT_plots.R)
+- [stage_3_ENUT_disaggregation.](code/stage_3_ENUT_disaggregation.R)
+- [text](code/stage_4_ENUT_pca.R)
+- [text](code/stage_5_ENUT_models.R)
+- [text](code/stage_6_ENPCCL_profiles.R)
+- [text](code/stage_7_ENPCCL_plots.R) 
+- [text](code/stage_8_ENPCCL_disaggregation.R)
+- [text](code/stage_9_ENPCCL_pca.R)
+- [text](code/stage_10_ENPCCL_models.R) 
 
 ## Licencia
 
@@ -60,4 +102,4 @@ Agradecimientos al equipo de la Subsecretaría de las Culturas y las Artes, espe
 
 ### Última revisión
 
-9 de diciembre de 2025.
+14 de diciembre de 2025.
