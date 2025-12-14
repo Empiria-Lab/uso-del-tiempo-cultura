@@ -50,7 +50,7 @@ El repositorio también contiene las siguientes carpetas con archivos relevantes
 
 - **data/code**. Contiene los scripts en R descritos previamente.
 
-- **data/raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL 2024 `enpccl_puf.RData`. ENPCLL 2024 pesa 148MB, por tanto, solo se encuentra disponible de forma local y debe ser añadido manualmente.
+- **data/raw**. Contiene las bases de datos originales de II ENUT 2023 `250403-ii-enut-bdd-r-v2.RDS` y ENPCCL 2024 `enpccl_puf.RData`. ENPCLL 2024 pesa 148MB, por tanto, solo se encuentra disponible de forma local y el archivo debe ser añadido manualmente.
 
 > [!IMPORTANT]
 > ENPCCL 2024 `enpccl_puf.RData` se ha incorporado a `.gitignore` por su tamaño y los límites de LFS, por tanto, debe ser descargada desde https://www.cultura.gob.cl/participacioncultural/resultados-enpccl-2024/. II ENUT 2023 se está respaldada en el repositorio, sin embargo, también se puede descargar desde https://www.ine.gob.cl/estadisticas/sociales/genero/uso-del-tiempo. 
