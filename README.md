@@ -15,7 +15,7 @@ Este repositorio se ha creado con control de versiones Git. Además, el entorno 
 
 ### Archivos relevantes
 
-A continuación se ofrece una breve descripción de los **archivos relevantes** de este repositorio:
+A continuación se ofrece una breve descripción de los archivos relevantes de este repositorio:
 
 - **code\stage_1_ENUT_profiles.R**. Script de R que preprocesa los datos de II ENUT 2023 y guarda cada perfil generado utilizando control de versiones y el paquete `pins`.
 
@@ -46,7 +46,7 @@ A continuación se ofrece una breve descripción de los **archivos relevantes** 
 
 ### Carpetas relevantes
 
-El repositorio también contiene las siguientes **carpetas** con archivos relevantes:
+El repositorio también contiene las siguientes carpetas con archivos relevantes:
 
 - **data\code**. Contiene los scripts en R descritos previamente.
 
