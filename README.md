@@ -75,14 +75,14 @@ Para replicar los principales resultados del artículo, deben ejecutarse los sig
 
 - [stage_1_ENUT_profiles.R](code/stage_1_ENUT_profiles.R)
 - [stage_2_ENUT_plots.R](code/stage_2_ENUT_plots.R)
-- [stage_3_ENUT_disaggregation.](code/stage_3_ENUT_disaggregation.R)
-- [text](code/stage_4_ENUT_pca.R)
-- [text](code/stage_5_ENUT_models.R)
-- [text](code/stage_6_ENPCCL_profiles.R)
-- [text](code/stage_7_ENPCCL_plots.R) 
-- [text](code/stage_8_ENPCCL_disaggregation.R)
-- [text](code/stage_9_ENPCCL_pca.R)
-- [text](code/stage_10_ENPCCL_models.R) 
+- [stage_3_ENUT_disaggregation](code/stage_3_ENUT_disaggregation.R)
+- [stage_4_ENUT_pca.R](code/stage_4_ENUT_pca.R)
+- [stage_5_ENUT_models.R](code/stage_5_ENUT_models.R)
+- [stage_6_ENPCCL_profiles.R](code/stage_6_ENPCCL_profiles.R)
+- [stage_7_ENPCCL_plots.R](code/stage_7_ENPCCL_plots.R) 
+- [stage_8_ENPCCL_disaggregation.R](code/stage_8_ENPCCL_disaggregation.R)
+- [stage_9_ENPCCL_pca.R](code/stage_9_ENPCCL_pca.R)
+- [stage_10_ENPCCL_models.R](code/stage_10_ENPCCL_models.R) 
 
 ## Licencia
 
