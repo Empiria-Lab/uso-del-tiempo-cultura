@@ -42,7 +42,7 @@ A continuación se ofrece una breve descripción de los archivos relevantes de e
 - **renv.lock**. El archivo de bloqueo que especifica las versiones exactas de los paquetes utilizados en este proyecto, lo que garantiza un entorno computacional coherente para reproducir el estudio.
 
 > [!TIP] 
-> El archivo [mini-codebook.md](data/tidy/mini_codebook.md) contiene las categorías utilizadas en los CSV para los perfiles generales y desagregados.
+> El archivo [mini-codebook.md](data/tidy/mini_codebook.md) contiene las categorías utilizadas en los CSVs para los perfiles generales y desagregados.
 
 ### Carpetas relevantes
 
